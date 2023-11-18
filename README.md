@@ -43,6 +43,7 @@ Tasarım kalıplarının geçmişi mimarlık alanına kadar uzanmaktadır, ancak
 ## Tasarım Kalıplarını Neden Kullanıyoruz?
 
 Tasarım kalıplarını çeşitli nedenlerle kullanırız:
+
 <br/>
 
 #### Yeniden Kullanılabilirlik — Reusability
@@ -86,6 +87,7 @@ Tasarım kalıplarının akıllıca kullanılması ve herkese uyan tek bir çöz
 Tasarım kalıplarını mantıklı bir şekilde kullanmanın ve sınırlamalarının farkında olmak önemlidir. Tasarım kalıpları yaygın sorunlara yeniden kullanılabilir çözümler sağlar, ancak belirli bir sorun veya bağlam için her zaman en uygun çözüm olmayabilir. Bir tasarım kalıbının sonuçları dikkate alınmadan uygulanması istenmeyen sonuçlara veya optimal olmayan çözümlere yol açabilir.
 
 İşte bu ifadenin bazı nedenleri:
+
 <br/>
 
 #### Bağlamsal farklılıklar — Contextual differences

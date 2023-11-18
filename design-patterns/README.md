@@ -1,17 +1,5 @@
 <br/>
 
-## Tasarım Kalıplarının Sınıflandırılması
-
-Tasarım kalıpları üç ana kategoride sınıflandırılabilirler:
-
-**Yaratımsal (Creational)** — **Yapısal (Structural)** — **Davranışsal (Behavioral)**
-
-Bu kategorilerin her biri ayrı bir amaca hizmet eder ve yazılım tasarımında farklı türde sorunların çözülmesine yardımcı olur.
-
----
-
-<br/>
-
 ## Yaratımsal Tasarım Kalıpları — Creational Design Patterns
 
 Yaratımsal tasarım kalıpları nesne oluşturma sürecine odaklanır. Nesne oluşturma sürecini soyutlarlar ve sistemi nesnelerin nasıl oluşturulduğu, oluşturulduğu ve temsil edildiğinden bağımsız hale getirmeye yardımcı olurlar. Bu kalıplar, nesneleri doğrudan new operatörünü kullanarak oluşturmak yerine, oluşturma mantığını gizleyerek nesneleri oluşturmanın bir yolunu sağlar. Bu, belirli bir kullanım durumu için hangi nesnelerin oluşturulması gerektiğine karar verirken daha fazla esneklik sağlar. Bazı popüler yaratımsal tasarım kalıpları arasında;

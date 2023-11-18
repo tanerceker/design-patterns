@@ -196,7 +196,12 @@ Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Obse
 
 <br/>
 
-![behavioral-design-patterns.svg](images/behavioral-design-patterns.svg){ width=35% style="display: block; margin: 0 auto" }
+<p align="center">
+  <img 
+  width="35%" 
+  alt="behavioral-design-patterns"
+  src="images/behavioral-design-patterns.svg" />
+</p>
 
 <br>
 

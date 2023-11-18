@@ -154,8 +154,6 @@ Tasarım kalıpları üç ana kategoride sınıflandırılabilirler:
 
 Bu kategorilerin her biri ayrı bir amaca hizmet eder ve yazılım tasarımında farklı türde sorunların çözülmesine yardımcı olur.
 
-<br/>
-
 ---
 
 <br/>
@@ -198,6 +196,8 @@ Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Obse
 
 <br/>
 
-![behavioral-design-patterns.svg](images/behavioral-design-patterns.svg)
+![behavioral-design-patterns.svg](images/behavioral-design-patterns.svg){ width=35% style="display: block; margin: 0 auto" }
+
+<br>
 
 ---

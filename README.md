@@ -163,7 +163,12 @@ Singleton, Abstract Factory, Builder, Factory Method ve Prototype yer alır.
 
 <br/>
 
-![creational-design-patterns.svg](images/creational-design-patterns.svg)
+<p align="center">
+  <img 
+  width="90%" 
+  title="creational design patterns"
+  src="images/creational-design-patterns.svg" />
+</p>
 
 <br/>
 
@@ -179,7 +184,12 @@ Adapter, Bridge, Composite, Decorator, Facade, Flyweight ve Proxy yer alır.
 
 <br/>
 
-![structural-design-patterns.svg](images/structural-design-patterns.svg)
+<p align="center">
+  <img 
+  width="100%" 
+  title="structural design patterns"
+  src="images/structural-design-patterns.svg" />
+</p>
 
 <br/>
 
@@ -197,7 +207,7 @@ Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Obse
 <p align="center">
   <img 
   width="33%" 
-  alt="behavioral-design-patterns"
+  title="behavioral design patterns"
   src="images/behavioral-design-patterns.svg" />
 </p>
 

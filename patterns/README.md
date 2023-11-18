@@ -11,5 +11,3 @@ Tasarım kalıpları üç ana kategoride sınıflandırılabilirler:
 3. **Davranışsal (Behavioral)**
 
 Bu kategorilerin her biri ayrı bir amaca hizmet eder ve yazılım tasarımında farklı türde sorunların çözülmesine yardımcı olur.
-
----

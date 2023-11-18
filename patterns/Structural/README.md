@@ -16,5 +16,3 @@ Adapter, Bridge, Composite, Decorator, Facade, Flyweight ve Proxy yer alır.
 </p>
 
 <br/>
-
----

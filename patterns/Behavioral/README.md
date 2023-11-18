@@ -15,5 +15,3 @@ Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Obse
 </p>
 
 <br>
-
----

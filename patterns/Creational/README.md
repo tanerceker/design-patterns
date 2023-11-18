@@ -15,5 +15,3 @@ Singleton, Abstract Factory, Builder, Factory Method ve Prototype yer alır.
 </p>
 
 <br/>
-
----

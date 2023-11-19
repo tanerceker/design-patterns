@@ -1,5 +1,3 @@
-<br/>
-
 # Tasarım Kalıplarının Sınıflandırılması
 
 Tasarım kalıpları üç ana kategoride sınıflandırılabilirler:

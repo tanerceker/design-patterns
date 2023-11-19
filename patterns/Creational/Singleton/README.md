@@ -22,10 +22,9 @@ Nesne yönelimli programlamada bir Singleton kalıbını uygulamak tipik olarak 
 
 4. Sınıfın static yönteminde, singleton örneğinin var olup olmadığını kontrol edin. Varsa, onu döndürün. Eğer yoksa, yeni bir tane oluşturun ve geri döndürün.
 
-### Klasik Uygulama — **Classic Implementation**
+<br/>
 
-TypeScript'te Singleton kalıbı aşağıdaki gibi uygulanabilir:
-
+Typescript'te Singleton kalıbı aşağıdaki gibi uygulanabilir:
 <br/>
 
 ```tsx
@@ -87,7 +86,7 @@ Singletonlar genellikle sistem genelindeki eylemlerin tek bir merkezi yerden koo
 
 Günlükleri bir dosyaya yazmak istediğiniz bir uygulama düşünün. Birden fazla örnek (instance) aynı günlük dosyasına yazmaya çalıştığında dosya izinleriyle ilgili sorunları önlemek için, günlüğün yalnızca tek bir örneğinin (only a single instance) oluşturulmasını sağlamak isteyebilirsiniz.
 
-TypeScript'te bir Logger singleton:
+Typescript'te bir Logger singleton:
 
 ```tsx
 class Logger {
@@ -144,6 +143,7 @@ Singleton kalıbının uygun olabileceğini gösteren bazı göstergeler şunlar
 <br/>
 
 **6. Aşırı Parametreler (Excessive Parameters):** Bir nesnenin örneğini sadece derinlemesine iç içe geçmiş bir bileşenin kullanımına sunmak için programınızın birkaç katmanından geçiriyorsanız, bunun nesnenin bir Singleton olabileceğine dair bir işaret olup olmadığını göz önünde bulundurun.
+
 <br/>
 
 Yine, Singleton'ın dezavantajları olduğunu ve mantıklı bir şekilde kullanılması gerektiğini unutmamak çok önemlidir. Kodun test edilmesini zorlaştırabilir ve bir sisteme gereksiz durumsallık ve bağlanma getirebilir. Singleton'a başvurmadan önce hedeflerinize ulaşmak için bağımlılık enjeksiyonu (dependency injection) veya bir hizmet konteyneri (service container) kullanmak gibi başka yollar olup olmadığını her zaman göz önünde bulundurun.

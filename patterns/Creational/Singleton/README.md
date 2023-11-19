@@ -39,8 +39,7 @@ class Singleton {
   // Adım 2: Bir public static getInstance yöntemi oluşturun
   public static getInstance(): Singleton {
     // Adım 4: Singleton örneğinin var olup olmadığını kontrol edin.
-    // Varsa, onu döndürün. Eğer yoksa, yeni bir tane oluşturun ve
-    // geri döndürün.
+    // Varsa, onu döndürün. Eğer yoksa, yeni bir tane oluşturun ve geri döndürün.
     if (!Singleton.instance) {
       Singleton.instance = new Singleton();
     }
@@ -82,7 +81,7 @@ Koddaki son satır (console.log(instance1 === instance2)) Singleton kalıbını 
 
 <br/>
 
-### Singleton Kalıbı Gerçek Dünya Uygulaması
+### Singleton Kalıbı Gerçek Dünya Örneği
 
 Singletonlar genellikle sistem genelindeki eylemlerin tek bir merkezi yerden koordine edilmesi gereken durumlarda kullanılır. Böyle bir kullanım durumuna örnek olarak bir günlük hizmeti (logging service) verilebilir.
 
@@ -130,17 +129,21 @@ Singleton kalıbının uygun olabileceğini gösteren bazı göstergeler şunlar
 <br/>
 
 **1. Global Değişkenler (Global Variables):** Sisteminizin birçok farklı bölümü tarafından erişilebilmesi gereken bazı verileri tutmak için global bir değişken kullandığınızı fark ederseniz, Singleton bunu kapsüllemek için uygun bir yol olabilir.
+<br/>
 
 **2. Tekrarlanan Başlatma (Repeated Initialization):** Kodunuz aynı şeyin tekrarlanan, pahalı başlatılmasını içeriyorsa (bir dosyadan yapılandırma verilerini okumak, bir veritabanı bağlantısı kurmak gibi), bunu yalnızca bir kez yapmak ve ardından sonucu sisteminizin geri kalanına sağlamak için bir Singleton kullanmak iyi bir fikir olabilir.
+<br/>
 
 **3. Çoklu Erişim, Tek Kontrol (Multiple Access, Single Control):** Sisteminizin birkaç parçası veri önbelleği veya sistem genelinde yapılandırma gibi paylaşılan bir kaynağa erişiyor ve potansiyel olarak bu kaynağı değiştiriyorsa, bu kaynağa erişimi kapsüllemek için bir Singleton kalıbının yararlı olacağı bir kod kokusu olabilir.
+<br/>
 
 **4. Tekdüze Olmayan Erişim (Non-Uniform Access):** Sisteminiz, sistem genelinde tek tip olmayan veya tutarsız şekillerde erişilen bir varlık içeriyorsa, bu varlığı bir Singleton içine kapsüllemek, kullanımını daha öngörülebilir ve yönetilebilir hale getirebilir.
+<br/>
 
 **5. Tekrarlanan Örnekler (Duplicate Instances):** Sisteminizin bir nesnenin birden fazla örneğini oluşturduğunu ve bu örneklerin her birinin aynı olduğunu ve farklı durumları korumadıklarını gözlemlerseniz, Singleton kalıbını düşünmek isteyebilirsiniz. Yazdırma biriktiricisi veya aygıt sürücüsü nesnesi gibi tek bir kontrol noktasına sahip olması gereken bir kaynağı yönetiyorsanız bu durum söz konusu olabilir.
+<br/>
 
 **6. Aşırı Parametreler (Excessive Parameters):** Bir nesnenin örneğini sadece derinlemesine iç içe geçmiş bir bileşenin kullanımına sunmak için programınızın birkaç katmanından geçiriyorsanız, bunun nesnenin bir Singleton olabileceğine dair bir işaret olup olmadığını göz önünde bulundurun.
-
 <br/>
 
 Yine, Singleton'ın dezavantajları olduğunu ve mantıklı bir şekilde kullanılması gerektiğini unutmamak çok önemlidir. Kodun test edilmesini zorlaştırabilir ve bir sisteme gereksiz durumsallık ve bağlanma getirebilir. Singleton'a başvurmadan önce hedeflerinize ulaşmak için bağımlılık enjeksiyonu (dependency injection) veya bir hizmet konteyneri (service container) kullanmak gibi başka yollar olup olmadığını her zaman göz önünde bulundurun.

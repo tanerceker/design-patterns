@@ -80,7 +80,7 @@ Koddaki son satır (console.log(instance1 === instance2)) Singleton kalıbını 
 
 <br/>
 
-### Singleton Kalıbı Gerçek Dünya Örneği
+## Singleton Kalıbı Gerçek Dünya Örneği
 
 Singletonlar genellikle sistem genelindeki eylemlerin tek bir merkezi yerden koordine edilmesi gereken durumlarda kullanılır. Böyle bir kullanım durumuna örnek olarak bir günlük hizmeti (logging service) verilebilir.
 

@@ -2,8 +2,7 @@
 
 # Singleton Kalıbı (Pattern)
 
-Singleton kalıbı, bir sınıfın yalnızca bir örneğe (only one instance) sahip olmasını sağlarken bu örneğe global bir erişim noktası sağlayan bir yaratımsal tasarım kalıbıdır.
-
+Singleton kalıbı, bir sınıfın yalnızca bir örneğe (only one instance) sahip olmasını sağlarken bu örneğe global bir erişim noktası sağlayan bir yaratımsal tasarım kalıbıdır (creational design pattern).
 <br/>
 
 ---

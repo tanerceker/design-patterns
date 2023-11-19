@@ -10,7 +10,7 @@ Singleton kalıbı, bir sınıfın yalnızca bir örneğe (only one instance) sa
 
 <br/>
 
-## Singleton Tasarım Kalıbının Uygulanması (**Implementation**)
+## Singleton Kalıbının Uygulanması (**Implementation**)
 
 Nesne yönelimli programlamada bir Singleton kalıbını uygulamak tipik olarak aşağıdaki adımları içerir:
 

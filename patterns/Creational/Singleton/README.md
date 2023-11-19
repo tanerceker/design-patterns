@@ -14,7 +14,7 @@ Singleton kalıbı, bir sınıfın yalnızca bir örneğe (only one instance) sa
 
 Nesne yönelimli programlamada bir Singleton kalıbını uygulamak tipik olarak aşağıdaki adımları içerir:
 
-1. Singleton sınıfında private bir static örnek (instance) bildirin.
+1. Singleton sınıfında private bir static öznitelik (attribute) bildirin.
 
 2. Singleton nesnesi için global bir erişim noktası olarak public bir static yöntem (genellikle getInstance() olarak adlandırılır) oluşturun. Bu fonksiyon singleton nesnesinin "tembel başlatılmasını" uygular, yani yalnızca ihtiyaç duyulduğunda yeni bir örnek oluşturur.
 

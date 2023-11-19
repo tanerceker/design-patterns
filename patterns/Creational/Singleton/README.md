@@ -3,6 +3,7 @@
 # Singleton Kalıbı (Pattern)
 
 Singleton kalıbı, bir sınıfın yalnızca bir örneğe (only one instance) sahip olmasını sağlarken bu örneğe global bir erişim noktası sağlayan bir yaratımsal tasarım kalıbıdır (creational design pattern).
+
 <br/>
 
 ---
@@ -146,3 +147,5 @@ Singleton kalıbının uygun olabileceğini gösteren bazı göstergeler şunlar
 <br/>
 
 Yine, Singleton'ın dezavantajları olduğunu ve mantıklı bir şekilde kullanılması gerektiğini unutmamak çok önemlidir. Kodun test edilmesini zorlaştırabilir ve bir sisteme gereksiz durumsallık ve bağlanma getirebilir. Singleton'a başvurmadan önce hedeflerinize ulaşmak için bağımlılık enjeksiyonu (dependency injection) veya bir hizmet konteyneri (service container) kullanmak gibi başka yollar olup olmadığını her zaman göz önünde bulundurun.
+
+<br/>

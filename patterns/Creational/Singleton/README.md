@@ -8,7 +8,7 @@ Singleton kalıbı, bir sınıfın yalnızca bir örneğe (only one instance) sa
 
 <p align="center">
   <img 
-  width="85%" 
+  width="80%" 
   title="Singleton Diagram"
   src="images/singleton-diagram.svg" />
 </p>

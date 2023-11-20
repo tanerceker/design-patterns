@@ -11,7 +11,7 @@ Prototip kalıbı, özellikle Typescript'te tür denetimi (type checking) olduğ
 
 <p align="center">
   <img 
-  width="85%" 
+  width="70%" 
   title="Prototype Diagram"
   src="images/prototype-diagram.svg" />
 </p>
@@ -103,7 +103,7 @@ Lütfen nesnenin yüzeysel bir kopyasını (shallow copy) gerçekleştirdiğimiz
 
 <p align="center">
   <img 
-  width="85%" 
+  width="70%" 
   title="Prototype Example"
   src="images/prototype-example.svg" />
 </p>

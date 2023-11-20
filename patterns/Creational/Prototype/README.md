@@ -97,7 +97,7 @@ Lütfen nesnenin yüzeysel bir kopyasını (shallow copy) gerçekleştirdiğimiz
 
 <br/>
 
-## Prototip Kalıbı Gerçek Dünya Örneği
+## Prototype Kalıbı Gerçek Dünya Örneği
 
 <br/>
 
@@ -216,18 +216,23 @@ Prototip kalıbının uygun olabileceğini düşündürebilecek bazı göstergel
 <br/>
 
 **1. Karmaşık Nesne Oluşturma (Complex Object Creation):** Nesne oluşturmanın karmaşık olduğu bir sisteminiz varsa (karmaşık başlatma (complex initialization), çok sayıda öznitelik (attribute) veya diğer faktörler (factors) nedeniyle) ve birçok benzer nesnenin oluşturulması gerektiğini fark ederseniz, Prototip kalıbı yararlı olabilir. Her yeni nesne için karmaşık oluşturma sürecini tekrarlamak yerine, bir prototipi klonlayabilirsiniz.
+
 <br/>
 
 **2. Yüksek Nesne Oluşturma Maliyeti (High Cost of Object Creation):** Her nesneyi sıfırdan oluşturmanın bellek veya CPU açısından pahalı olduğu bir durumunuz varsa (örneğin, bir nesne oluşturmak bir veritabanı sorgusu içeriyorsa), Prototip kalıbını kullanmak önceden yüklenmiş bir nesneyi klonlamanıza olanak tanır, bu da daha verimli olabilir.
+
 <br/>
 
 **3. Benzer Nesne Örnekleri (Similar Object Instances):** Mevcut bir örneğe (instance) benzer (ancak aynı olmayan) birden fazla nesneye ihtiyacınız varsa Prototip kalıbını düşünebilirsiniz. Nesneyi klonladıktan sonra, gerekli farklılıkları elde etmek için klonu değiştirebilirsiniz.
+
 <br/>
 
 **4. Dinamik Türlendirme veya Çalışma Zamanı Yapılandırması (Dynamic Typing or Run-time Configuration):** Sisteminizin ihtiyaç duyduğu nesnelerin tam türü veya durumu yalnızca çalışma zamanında belirlenebiliyorsa Prototip kalıbı yararlı olabilir. Sisteminiz belirli nesne türlerini oluşturmak için sabit kodlama yapmak yerine, prototip arayüzünü (interface) takip eden herhangi bir nesne ile çalışabilir.
+
 <br/>
 
 **5. Geçmiş Durumların Korunması (Preserving Historical States):** Bir nesnenin durumunu (state) kaydetmeniz ve daha sonra geri dönebilmeniz gereken bir uygulama oluşturuyorsanız (örneğin, bir metin düzenleyicide geri alma özelliği (undo feature) veya bir oyun kaydetme/yükleme özelliği için), Prototip kalıbı yardımcı olabilir. Her durumu bir prototip olarak kaydederek, önceki bir durumu (state) geri yüklemek için prototipi klonlayabilirsiniz.
+
 <br/>
 
 **6. Büyük Nesne Grafikleri (Large Object Graphs):** Uygulamanız büyük nesne grafikleriyle (örneğin, karmaşık veri yapıları (complex data structures)) çalışıyorsa ve bir kullanıcının eylemi grafikte küçük bir değişikliğe neden olabiliyorsa, her eylem için grafiği yeniden oluşturmak yerine tüm grafiği klonlamak ve klonu değiştirmek daha verimli olabilir.
@@ -235,14 +240,6 @@ Prototip kalıbının uygun olabileceğini düşündürebilecek bazı göstergel
 <br/>
 
 Tüm tasarım kalıplarında olduğu gibi Prototip kalıbını da mantıklı bir şekilde kullanmak ve eldeki soruna uygun olduğundan emin olmak önemlidir. Herhangi bir kalıbın aşırı kullanımı gereksiz yere karmaşık ve anlaşılması zor kodlara yol açabilir.
-
-<br/>
-
----
-
-<br/>
-
-## Sonuç
 
 Sonuç olarak, Prototip Kalıbı, özellikle oluşturma işleminin zaman veya hesaplama kaynakları açısından maliyetli olduğu durumlarda, mevcut nesneleri kopyalayarak yeni nesneler oluşturmanın etkili bir yoludur. Kalıp, klonların asıllarından bağımsız olmasını sağlar ve böylece klonlarda yapılan değişikliklerin asılları etkilemesini önler. Bu Typescript uygulaması, Prototip Kalıbının pratik bir bağlamda (practical context) uygulanmasını (implementation) göstermekte ve kalıbın kod sürdürülebilirliğini ve performansını artırmadaki faydalarını ortaya koymaktadır.
 

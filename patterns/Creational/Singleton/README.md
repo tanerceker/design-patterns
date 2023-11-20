@@ -4,6 +4,8 @@
 
 Singleton kalıbı, bir sınıfın yalnızca bir örneğe (only one instance) sahip olmasını sağlarken bu örneğe global bir erişim noktası sağlayan bir yaratımsal tasarım kalıbıdır (creational design pattern).
 
+Birden fazla örneğe (instance) sahip olmanın tutarsız veriler veya senkronizasyon sorunları gibi sorunlara yol açabileceği senaryolarda yaygın olarak kullanılır.
+
 <br/>
 
 <p align="center">
@@ -22,8 +24,6 @@ Singleton kalıbı, bir sınıfın yalnızca bir örneğe (only one instance) sa
 | **(Altı Çizili Üyeler)** O üyenin **static** olduğu anlamına gelir. |
 
 <br/>
-
-Birden fazla örneğe (instance) sahip olmanın tutarsız veriler veya senkronizasyon sorunları gibi sorunlara yol açabileceği senaryolarda yaygın olarak kullanılır.
 
 ---
 

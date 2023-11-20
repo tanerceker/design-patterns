@@ -6,7 +6,12 @@ Singleton kalıbı, bir sınıfın yalnızca bir örneğe (only one instance) sa
 
 <br/>
 
-![singleton-diagram.svg](images/singleton-diagram.svg)
+<p align="center">
+  <img 
+  width="85%" 
+  title="Singleton Diagram"
+  src="images/singleton-diagram.svg" />
+</p>
 
 <br/>
 

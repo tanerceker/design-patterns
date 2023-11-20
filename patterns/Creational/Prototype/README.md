@@ -9,7 +9,12 @@ Prototip kalıbı, özellikle Typescript'te tür denetimi (type checking) olduğ
 
 <br/>
 
-![images/prototype-diagram.svg](images/prototype-diagram.svg)
+<p align="center">
+  <img 
+  width="85%" 
+  title="Prototype Diagram"
+  src="images/prototype-diagram.svg" />
+</p>
 
 <br/>
 
@@ -96,17 +101,22 @@ Lütfen nesnenin yüzeysel bir kopyasını (shallow copy) gerçekleştirdiğimiz
 
 <br/>
 
-![prototype-example.svg](images/prototype-example.svg)
+<p align="center">
+  <img 
+  width="85%" 
+  title="Prototype Example"
+  src="images/prototype-example.svg" />
+</p>
 
 <br/>
 
-| Diyagram                                                                    |
-| --------------------------------------------------------------------------- |
-| **(-)** İşareti o üyenin private olduğu anlamına gelir.                     |
-| **(+)** İşareti o üyenin public olduğu anlamına gelir.                      |
-| **(Altı Çizili Üyeler)** O üyenin static olduğu anlamına gelir.             |
-| **«abstract»** Bu sınıfın soyut (abstract) bir sınıf olduğu anlamına gelir. |
-| **«interface»** Bir arayüzü (interface) temsil eder.                        |
+| Diyagram                                                         |
+| ---------------------------------------------------------------- |
+| **(-)** İşareti o üyenin private olduğu anlamına gelir.          |
+| **(+)** İşareti o üyenin public olduğu anlamına gelir.           |
+| **(Altı Çizili Üyeler)** O üyenin static olduğu anlamına gelir.  |
+| **«abstract»** Bu sınıfın soyut bir sınıf olduğu anlamına gelir. |
+| **«interface»** Bir arayüzü temsil eder.                         |
 
 <br/>
 

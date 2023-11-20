@@ -6,6 +6,20 @@ Singleton kalıbı, bir sınıfın yalnızca bir örneğe (only one instance) sa
 
 <br/>
 
+![singleton-diagram.svg](images/singleton-diagram.svg)
+
+<br/>
+
+| Diyagram                                                            |
+| ------------------------------------------------------------------- |
+| **(-)** İşareti o üyenin **private** olduğu anlamına gelir.         |
+| **(+)** İşareti o üyenin **public** olduğu anlamına gelir.          |
+| **(Altı Çizili Üyeler)** O üyenin **static** olduğu anlamına gelir. |
+
+<br/>
+
+Birden fazla örneğe (instance) sahip olmanın tutarsız veriler veya senkronizasyon sorunları gibi sorunlara yol açabileceği senaryolarda yaygın olarak kullanılır.
+
 ---
 
 <br/>

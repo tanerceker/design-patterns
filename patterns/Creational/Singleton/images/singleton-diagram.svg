@@ -1,0 +1,325 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-roledescription="classDiagram" role="graphics-document document" viewBox="0 0 573.7840576171875 218.94033813476562" style="max-width: 573.7840576171875px;" width="100%" id="mermaid-svg-9077242">
+  <style>
+    #mermaid-svg-9077242 {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-9077242 .error-icon {
+      fill: #552222;
+    }
+
+    #mermaid-svg-9077242 .error-text {
+      fill: #552222;
+      stroke: #552222;
+    }
+
+    #mermaid-svg-9077242 .edge-thickness-normal {
+      stroke-width: 2px;
+    }
+
+    #mermaid-svg-9077242 .edge-thickness-thick {
+      stroke-width: 3.5px;
+    }
+
+    #mermaid-svg-9077242 .edge-pattern-solid {
+      stroke-dasharray: 0;
+    }
+
+    #mermaid-svg-9077242 .edge-pattern-dashed {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-9077242 .edge-pattern-dotted {
+      stroke-dasharray: 2;
+    }
+
+    #mermaid-svg-9077242 .marker {
+      fill: #666;
+      stroke: #666;
+    }
+
+    #mermaid-svg-9077242 .marker.cross {
+      stroke: #666;
+    }
+
+    #mermaid-svg-9077242 svg {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+    }
+
+    #mermaid-svg-9077242 g.classGroup text {
+      fill: #999;
+      fill: #111111;
+      stroke: none;
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-9077242 g.classGroup text .title {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-9077242 .nodeLabel,
+    #mermaid-svg-9077242 .edgeLabel {
+      color: #111111;
+    }
+
+    #mermaid-svg-9077242 .edgeLabel .label rect {
+      fill: #eee;
+    }
+
+    #mermaid-svg-9077242 .label text {
+      fill: #111111;
+    }
+
+    #mermaid-svg-9077242 .edgeLabel .label span {
+      background: #eee;
+    }
+
+    #mermaid-svg-9077242 .classTitle {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-9077242 .node rect,
+    #mermaid-svg-9077242 .node circle,
+    #mermaid-svg-9077242 .node ellipse,
+    #mermaid-svg-9077242 .node polygon,
+    #mermaid-svg-9077242 .node path {
+      fill: #eee;
+      stroke: #999;
+      stroke-width: 1px;
+    }
+
+    #mermaid-svg-9077242 .divider {
+      stroke: #999;
+      stroke: 1;
+    }
+
+    #mermaid-svg-9077242 g.clickable {
+      cursor: pointer;
+    }
+
+    #mermaid-svg-9077242 g.classGroup rect {
+      fill: #eee;
+      stroke: #999;
+    }
+
+    #mermaid-svg-9077242 g.classGroup line {
+      stroke: #999;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9077242 .classLabel .box {
+      stroke: none;
+      stroke-width: 0;
+      fill: #eee;
+      opacity: 0.5;
+    }
+
+    #mermaid-svg-9077242 .classLabel .label {
+      fill: #999;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-9077242 .relation {
+      stroke: #666;
+      stroke-width: 1;
+      fill: none;
+    }
+
+    #mermaid-svg-9077242 .dashed-line {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-9077242 .dotted-line {
+      stroke-dasharray: 1 2;
+    }
+
+    #mermaid-svg-9077242 #compositionStart,
+    #mermaid-svg-9077242 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9077242 #compositionEnd,
+    #mermaid-svg-9077242 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9077242 #dependencyStart,
+    #mermaid-svg-9077242 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9077242 #dependencyStart,
+    #mermaid-svg-9077242 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9077242 #extensionStart,
+    #mermaid-svg-9077242 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9077242 #extensionEnd,
+    #mermaid-svg-9077242 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9077242 #aggregationStart,
+    #mermaid-svg-9077242 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9077242 #aggregationEnd,
+    #mermaid-svg-9077242 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9077242 #lollipopStart,
+    #mermaid-svg-9077242 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9077242 #lollipopEnd,
+    #mermaid-svg-9077242 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9077242 .edgeTerminals {
+      font-size: 11px;
+    }
+
+    #mermaid-svg-9077242 .classTitleText {
+      text-anchor: middle;
+      font-size: 18px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-9077242 :root {
+      --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+    }
+  </style>
+  <g>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker aggregation classDiagram" id="classDiagram-aggregationStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z" />
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker aggregation classDiagram" id="classDiagram-aggregationEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z" />
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker extension classDiagram" id="classDiagram-extensionStart">
+        <path d="M 1,7 L18,13 V 1 Z" />
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker extension classDiagram" id="classDiagram-extensionEnd">
+        <path d="M 1,1 V 13 L18,7 Z" />
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker composition classDiagram" id="classDiagram-compositionStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z" />
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker composition classDiagram" id="classDiagram-compositionEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z" />
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker dependency classDiagram" id="classDiagram-dependencyStart">
+        <path d="M 5,7 L9,13 L1,7 L9,1 Z" />
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker dependency classDiagram" id="classDiagram-dependencyEnd">
+        <path d="M 18,7 L9,13 L14,7 L9,1 Z" />
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker lollipop classDiagram" id="classDiagram-lollipopStart">
+        <circle r="6" cy="7" cx="6" fill="white" stroke="black" />
+      </marker>
+    </defs>
+    <g class="root">
+      <g class="clusters" />
+      <g class="edgePaths" />
+      <g class="edgeLabels" />
+      <g class="nodes">
+        <g transform="translate(102.51704406738281, 109.47016906738281)" id="classid-Singleton-8" class="node default">
+          <rect height="202.94034004211426" width="189.03408813476562" y="-101.47017002105713" x="-94.51704406738281" class="outer title-state" />
+          <line y2="-59.88210201263428" y1="-59.88210201263428" x2="94.51704406738281" x1="-94.51704406738281" class="divider" />
+          <line y2="-10.294034004211426" y1="-10.294034004211426" x2="94.51704406738281" x1="-94.51704406738281" class="divider" />
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -34.59516906738281, -93.97017002105713)" height="29.58806800842285" width="69.19033813476562" class="classTitle">
+              <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                <span class="nodeLabel">Singleton</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -87.01704406738281, -48.38210201263428)" height="29.58806800842285" width="136.7755584716797">
+              <div xmlns="http://www.w3.org/1999/xhtml" style="text-decoration: underline; display: inline-block; white-space: nowrap;">
+                <span style="text-decoration:underline;" class="nodeLabel">-Singleton instance</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -87.01704406738281, -2.794034004211426)" height="29.58806800842285" width="83.77840423583984">
+              <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                <span class="nodeLabel">-Singleton()</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -87.01704406738281, 30.794034004211426)" height="29.58806800842285" width="174.03408813476562">
+              <div xmlns="http://www.w3.org/1999/xhtml" style="text-decoration: underline; display: inline-block; white-space: nowrap;">
+                <span style="text-decoration:underline;" class="nodeLabel">+Singleton getInstance()</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -87.01704406738281, 64.38210201263428)" height="29.58806800842285" width="144.60226440429688">
+              <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                <span class="nodeLabel">+void someMethod()</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(406.4090881347656, 109.47016906738281)" id="note0" class="node undefined">
+          <rect height="44.58806800842285" width="268.75" y="-22.294034004211426" x="-159.375" ry="0" rx="0" />
+          <g transform="translate(-151.875, -14.794034004211426)" style="" class="label">
+            <foreignObject height="29.58806800842285" width="303.75">
+              <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
+                <span class="nodeLabel">Singleton Kalıbı için sınıf diyagramı</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

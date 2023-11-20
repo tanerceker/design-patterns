@@ -1,0 +1,422 @@
+<svg aria-roledescription="classDiagram" role="graphics-document document" viewBox="0 0 473.55322265625 467.88067626953125" style="max-width: 473.55322265625px;" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-svg-5063884">
+  <style>
+    #mermaid-svg-5063884 {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-5063884 .error-icon {
+      fill: #552222;
+    }
+
+    #mermaid-svg-5063884 .error-text {
+      fill: #552222;
+      stroke: #552222;
+    }
+
+    #mermaid-svg-5063884 .edge-thickness-normal {
+      stroke-width: 2px;
+    }
+
+    #mermaid-svg-5063884 .edge-thickness-thick {
+      stroke-width: 3.5px;
+    }
+
+    #mermaid-svg-5063884 .edge-pattern-solid {
+      stroke-dasharray: 0;
+    }
+
+    #mermaid-svg-5063884 .edge-pattern-dashed {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-5063884 .edge-pattern-dotted {
+      stroke-dasharray: 2;
+    }
+
+    #mermaid-svg-5063884 .marker {
+      fill: #666;
+      stroke: #666;
+    }
+
+    #mermaid-svg-5063884 .marker.cross {
+      stroke: #666;
+    }
+
+    #mermaid-svg-5063884 svg {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+    }
+
+    #mermaid-svg-5063884 g.classGroup text {
+      fill: #999;
+      fill: #111111;
+      stroke: none;
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-5063884 g.classGroup text .title {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-5063884 .nodeLabel,
+    #mermaid-svg-5063884 .edgeLabel {
+      color: #111111;
+    }
+
+    #mermaid-svg-5063884 .edgeLabel .label rect {
+      fill: #eee;
+    }
+
+    #mermaid-svg-5063884 .label text {
+      fill: #111111;
+    }
+
+    #mermaid-svg-5063884 .edgeLabel .label span {
+      background: #eee;
+    }
+
+    #mermaid-svg-5063884 .classTitle {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-5063884 .node rect,
+    #mermaid-svg-5063884 .node circle,
+    #mermaid-svg-5063884 .node ellipse,
+    #mermaid-svg-5063884 .node polygon,
+    #mermaid-svg-5063884 .node path {
+      fill: #eee;
+      stroke: #999;
+      stroke-width: 1px;
+    }
+
+    #mermaid-svg-5063884 .divider {
+      stroke: #999;
+      stroke: 1;
+    }
+
+    #mermaid-svg-5063884 g.clickable {
+      cursor: pointer;
+    }
+
+    #mermaid-svg-5063884 g.classGroup rect {
+      fill: #eee;
+      stroke: #999;
+    }
+
+    #mermaid-svg-5063884 g.classGroup line {
+      stroke: #999;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5063884 .classLabel .box {
+      stroke: none;
+      stroke-width: 0;
+      fill: #eee;
+      opacity: 0.5;
+    }
+
+    #mermaid-svg-5063884 .classLabel .label {
+      fill: #999;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-5063884 .relation {
+      stroke: #666;
+      stroke-width: 1;
+      fill: none;
+    }
+
+    #mermaid-svg-5063884 .dashed-line {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-5063884 .dotted-line {
+      stroke-dasharray: 1 2;
+    }
+
+    #mermaid-svg-5063884 #compositionStart,
+    #mermaid-svg-5063884 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5063884 #compositionEnd,
+    #mermaid-svg-5063884 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5063884 #dependencyStart,
+    #mermaid-svg-5063884 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5063884 #dependencyStart,
+    #mermaid-svg-5063884 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5063884 #extensionStart,
+    #mermaid-svg-5063884 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5063884 #extensionEnd,
+    #mermaid-svg-5063884 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5063884 #aggregationStart,
+    #mermaid-svg-5063884 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5063884 #aggregationEnd,
+    #mermaid-svg-5063884 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5063884 #lollipopStart,
+    #mermaid-svg-5063884 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5063884 #lollipopEnd,
+    #mermaid-svg-5063884 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5063884 .edgeTerminals {
+      font-size: 11px;
+    }
+
+    #mermaid-svg-5063884 .classTitleText {
+      text-anchor: middle;
+      font-size: 18px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-5063884 :root {
+      --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+    }
+  </style>
+  <g>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker aggregation classDiagram" id="classDiagram-aggregationStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker aggregation classDiagram" id="classDiagram-aggregationEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker extension classDiagram" id="classDiagram-extensionStart">
+        <path d="M 1,7 L18,13 V 1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker extension classDiagram" id="classDiagram-extensionEnd">
+        <path d="M 1,1 V 13 L18,7 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker composition classDiagram" id="classDiagram-compositionStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker composition classDiagram" id="classDiagram-compositionEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker dependency classDiagram" id="classDiagram-dependencyStart">
+        <path d="M 5,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker dependency classDiagram" id="classDiagram-dependencyEnd">
+        <path d="M 18,7 L9,13 L14,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker lollipop classDiagram" id="classDiagram-lollipopStart">
+        <circle r="6" cy="7" cx="6" fill="white" stroke="black"></circle>
+      </marker>
+    </defs>
+    <g class="root">
+      <g class="clusters"></g>
+      <g class="edgePaths">
+        <path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-solid relation" id="id1" d="M111.575,194.146L105.468,203.578C99.36,213.009,87.146,231.872,81.039,247.935C74.932,263.999,74.932,277.264,74.932,283.896L74.932,290.528"></path>
+        <path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-solid relation" id="id2" d="M221.236,194.146L227.344,203.578C233.451,213.009,245.665,231.872,251.772,250.734C257.879,269.597,257.879,288.46,257.879,297.891L257.879,307.322"></path>
+      </g>
+      <g class="edgeLabels">
+        <g transform="translate(74.93181610107422, 250.73437213897705)" class="edgeLabel">
+          <g transform="translate(-27.89772605895996, -14.794034004211426)" class="label">
+            <foreignObject height="29.58806800842285" width="55.79545211791992">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel">
+                  <span class="edgeLabel">Extends</span>
+                </span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(257.87925720214844, 250.73437213897705)" class="edgeLabel">
+          <g transform="translate(-27.89772605895996, -14.794034004211426)" class="label">
+            <foreignObject height="29.58806800842285" width="55.79545211791992">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel">
+                  <span class="edgeLabel">Extends</span>
+                </span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+      <g class="nodes">
+        <g transform="translate(166.40553665161133, 109.47016906738281)" id="classid-Shape-3" class="node default">
+          <rect height="169.3522720336914" width="223.21022033691406" y="-84.6761360168457" x="-111.60511016845703" class="outer title-state"></rect>
+          <line y2="-9.5" y1="-9.5" x2="111.60511016845703" x1="-111.60511016845703" class="divider"></line>
+          <line y2="40.08806800842285" y1="40.08806800842285" x2="111.60511016845703" x1="-111.60511016845703" class="divider"></line>
+          <g class="label">
+            <foreignObject transform="translate( -37.911930084228516, -77.1761360168457)" height="29.58806800842285" width="75.82386016845703">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">«abstract»</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -22.357954025268555, -43.58806800842285)" height="29.58806800842285" width="44.71590805053711" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">Shape</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -104.10511016845703, 2)" height="29.58806800842285" width="208.21022033691406">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+properties: ShapeProperties</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -104.10511016845703, 47.58806800842285)" height="29.58806800842285" width="116.84658813476562">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+clone() : Shape</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(74.93181610107422, 375.20454597473145)" id="classid-Rectangle-4" class="node default">
+          <rect height="169.3522720336914" width="133.86363220214844" y="-84.6761360168457" x="-66.93181610107422" class="outer title-state"></rect>
+          <line y2="-43.08806800842285" y1="-43.08806800842285" x2="66.93181610107422" x1="-66.93181610107422" class="divider"></line>
+          <line y2="40.08806800842285" y1="40.08806800842285" x2="66.93181610107422" x1="-66.93181610107422" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -36.711647033691406, -77.1761360168457)" height="29.58806800842285" width="73.42329406738281" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">Rectangle</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -59.43181610107422, -31.58806800842285)" height="29.58806800842285" width="114.19033813476562">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+width: number</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -59.43181610107422, 2)" height="29.58806800842285" width="118.86363220214844">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+height: number</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -59.43181610107422, 47.58806800842285)" height="29.58806800842285" width="116.84658813476562">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+clone() : Shape</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(257.87925720214844, 375.20454597473145)" id="classid-Circle-5" class="node default">
+          <rect height="135.76420402526855" width="132.03124237060547" y="-67.88210201263428" x="-66.01562118530273" class="outer title-state"></rect>
+          <line y2="-26.294034004211426" y1="-26.294034004211426" x2="66.01562118530273" x1="-66.01562118530273" class="divider"></line>
+          <line y2="23.294034004211426" y1="23.294034004211426" x2="66.01562118530273" x1="-66.01562118530273" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -21.754261016845703, -60.38210201263428)" height="29.58806800842285" width="43.508522033691406" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">Circle</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -58.515621185302734, -14.794034004211426)" height="29.58806800842285" width="117.03124237060547">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+radius: number</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -58.515621185302734, 30.794034004211426)" height="29.58806800842285" width="116.84658813476562">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+clone() : Shape</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(396.78195571899414, 109.47016906738281)" id="classid-ShapeProperties-6" class="node default">
+          <rect height="202.94034004211426" width="137.54261016845703" y="-101.47017002105713" x="-68.77130508422852" class="outer title-state"></rect>
+          <line y2="-26.294034004211426" y1="-26.294034004211426" x2="68.77130508422852" x1="-68.77130508422852" class="divider"></line>
+          <line y2="90.47017002105713" y1="90.47017002105713" x2="68.77130508422852" x1="-68.77130508422852" class="divider"></line>
+          <g class="label">
+            <foreignObject transform="translate( -41.171875, -93.97017002105713)" height="29.58806800842285" width="82.34375">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">«interface»</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -61.271305084228516, -60.38210201263428)" height="29.58806800842285" width="122.54261016845703" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">ShapeProperties</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -61.271305084228516, -14.794034004211426)" height="29.58806800842285" width="95.49715423583984">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+color: string</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -61.271305084228516, 18.794034004211426)" height="29.58806800842285" width="81.73294830322266">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+x: number</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -61.271305084228516, 52.38210201263428)" height="29.58806800842285" width="81.60511016845703">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+y: number</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

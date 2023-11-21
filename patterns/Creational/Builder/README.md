@@ -49,7 +49,7 @@ Bizim durumumuzda, ConcreteBuilder1, Product1'in oluşturulmasından ve birleşt
 
 <br/>
 
-## Builder Kalıbının Uygulanması (**Implementation**)
+## Builder Kalıbının Uygulanması (Implementation)
 
 <br/>
 

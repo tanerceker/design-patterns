@@ -4,7 +4,14 @@
 
 Builder kalıbı, karmaşık nesneleri adım adım oluşturmanızı sağlayan bir yaratımsal tasarım kalıbıdır (creational design pattern).
 
-![builder-diagram.svg](images/builder-diagram.svg)
+<br/>
+
+<p align="center">
+  <img 
+  width="80%" 
+  title="Builder Diagram"
+  src="images/builder-diagram.svg" />
+</p>
 
 <br/>
 

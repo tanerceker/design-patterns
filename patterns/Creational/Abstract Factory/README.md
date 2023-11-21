@@ -15,7 +15,7 @@ Abstract Factory kalıbı, somut sınıflarını (concrete classes) belirtmeden 
 
 <br/>
 
-Bu uygulama Abstract Factory kalıbının somut (concrete) bir örneğidir. İşte kısa bir açıklama:
+Bu uygulama Abstract Factory kalıbının somut (concrete) bir örneğidir. Kısa bir açıklama:
 
 <br/>
 
@@ -27,7 +27,7 @@ Bu uygulama Abstract Factory kalıbının somut (concrete) bir örneğidir. İş
 
 <br/>
 
-3. **Somut Fabrika (Concrete Factory (Factory1):** Bu, factory arayüzünün uygulamasıdır. Ürünlerin (ProductA ve ProductB) örneklerini oluşturmaktan ve döndürmekten sorumludur.
+3. **Somut Fabrika (Concrete Factory (Factory1)):** Bu, factory arayüzünün uygulamasıdır. Ürünlerin (ProductA ve ProductB) örneklerini oluşturmaktan ve döndürmekten sorumludur.
 
 <br/>
 

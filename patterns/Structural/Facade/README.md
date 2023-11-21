@@ -95,7 +95,7 @@ Facade kalıbının temel fikri budur. Özellikle karmaşık bir alt sisteme bas
 
 ## Facade Kalıbı Gerçek Dünya Örneği
 
-Bir Ev Sinema sistemi örneğini ele alalım. Bu sistem Amplifikatör, DvdPlayer, Projektör ve Işıklar gibi birden fazla bileşene sahip olabilir. Bu bileşenlerin her biri kendi karmaşık işlemlerine sahip olabilir, ancak bir film izlemek istediğinizde, sadece bir düğmeye basmak istersiniz ve gerekli tüm işlemler yapılır.
+Bir Ev Sinema sistemi örneğini ele alalım. Bu sistem Amplifier, DvdPlayer, Projector ve Lights gibi birden fazla bileşene sahip olabilir. Bu bileşenlerin her biri kendi karmaşık işlemlerine sahip olabilir, ancak bir film izlemek istediğinizde, sadece bir düğmeye basmak istersiniz ve gerekli tüm işlemler yapılır.
 
 <br/>
 
@@ -108,7 +108,7 @@ Bir Ev Sinema sistemi örneğini ele alalım. Bu sistem Amplifikatör, DvdPlayer
 
 <br/>
 
-Öncelikle alt sistemlerimizi (subsystems) tanımlayalım (Amplifikatör, DvdPlayer, Projektör ve Işıklar):
+Öncelikle alt sistemlerimizi (subsystems) tanımlayalım (Amplifier, DvdPlayer, Projector ve Lights):
 
 ```tsx
 class Amplifier {
@@ -209,7 +209,7 @@ homeTheater.watchMovie("Inception");
 
 <br/>
 
-Bu örnekte, HomeTheaterFacade sınıfı alt sistemin karmaşıklıklarını gizler ve istemciye basitleştirilmiş bir arayüz sağlar. İstemcinin bir film izlemek için Amplifikatör, DvdPlayer, Projektör ve Işıkları ayrı ayrı nasıl çalıştıracağı konusunda endişelenmesine gerek yoktur. Sadece HomeTheaterFacade üzerindeki watchMovie yöntemini çağırmaları yeterlidir.
+Bu örnekte, HomeTheaterFacade sınıfı alt sistemin karmaşıklıklarını gizler ve istemciye basitleştirilmiş bir arayüz sağlar. İstemcinin bir film izlemek için Amplifier, DvdPlayer, Projector ve Lights ayrı ayrı nasıl çalıştıracağı konusunda endişelenmesine gerek yoktur. Sadece HomeTheaterFacade üzerindeki watchMovie yöntemini çağırmaları yeterlidir.
 
 <br/>
 

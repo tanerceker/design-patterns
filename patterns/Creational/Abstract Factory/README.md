@@ -115,7 +115,7 @@ Birden fazla platformda (örneğin Windows ve MacOS) çalışması gereken bir �
 
 <p align="center">
   <img 
-  width="80%" 
+  width="90%" 
   title="Abstract Factory Diagram"
   src="images/abstract-factory-example.svg" />
 </p>
@@ -248,7 +248,7 @@ Onay Kutusu bir Button'a bağlıdır ve GUIFactory'nin createCheckbox yöntemi a
 
 <br/>
 
-## Factory Method Kalıbı Ne Zaman Kullanılır?
+## Abstract Factory Kalıbı Ne Zaman Kullanılır?
 
 Abstract Factory kalıbı Tipik olarak, bir sistemin yarattığı nesnelerin oluşturulma şeklinden bağımsız olması gerektiğinde veya birden fazla nesne türüyle çalışması gerektiğinde kullanılır.
 

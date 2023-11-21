@@ -1,0 +1,467 @@
+<svg aria-roledescription="classDiagram" role="graphics-document document" viewBox="0 0 702.321044921875 515.2926025390625" style="max-width: 702.321044921875px;" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-svg-7538147">
+  <style>
+    #mermaid-svg-7538147 {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-7538147 .error-icon {
+      fill: #552222;
+    }
+
+    #mermaid-svg-7538147 .error-text {
+      fill: #552222;
+      stroke: #552222;
+    }
+
+    #mermaid-svg-7538147 .edge-thickness-normal {
+      stroke-width: 2px;
+    }
+
+    #mermaid-svg-7538147 .edge-thickness-thick {
+      stroke-width: 3.5px;
+    }
+
+    #mermaid-svg-7538147 .edge-pattern-solid {
+      stroke-dasharray: 0;
+    }
+
+    #mermaid-svg-7538147 .edge-pattern-dashed {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-7538147 .edge-pattern-dotted {
+      stroke-dasharray: 2;
+    }
+
+    #mermaid-svg-7538147 .marker {
+      fill: #666;
+      stroke: #666;
+    }
+
+    #mermaid-svg-7538147 .marker.cross {
+      stroke: #666;
+    }
+
+    #mermaid-svg-7538147 svg {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+    }
+
+    #mermaid-svg-7538147 g.classGroup text {
+      fill: #999;
+      fill: #111111;
+      stroke: none;
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-7538147 g.classGroup text .title {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-7538147 .nodeLabel,
+    #mermaid-svg-7538147 .edgeLabel {
+      color: #111111;
+    }
+
+    #mermaid-svg-7538147 .edgeLabel .label rect {
+      fill: #eee;
+    }
+
+    #mermaid-svg-7538147 .label text {
+      fill: #111111;
+    }
+
+    #mermaid-svg-7538147 .edgeLabel .label span {
+      background: #eee;
+    }
+
+    #mermaid-svg-7538147 .classTitle {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-7538147 .node rect,
+    #mermaid-svg-7538147 .node circle,
+    #mermaid-svg-7538147 .node ellipse,
+    #mermaid-svg-7538147 .node polygon,
+    #mermaid-svg-7538147 .node path {
+      fill: #eee;
+      stroke: #999;
+      stroke-width: 1px;
+    }
+
+    #mermaid-svg-7538147 .divider {
+      stroke: #999;
+      stroke: 1;
+    }
+
+    #mermaid-svg-7538147 g.clickable {
+      cursor: pointer;
+    }
+
+    #mermaid-svg-7538147 g.classGroup rect {
+      fill: #eee;
+      stroke: #999;
+    }
+
+    #mermaid-svg-7538147 g.classGroup line {
+      stroke: #999;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-7538147 .classLabel .box {
+      stroke: none;
+      stroke-width: 0;
+      fill: #eee;
+      opacity: 0.5;
+    }
+
+    #mermaid-svg-7538147 .classLabel .label {
+      fill: #999;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-7538147 .relation {
+      stroke: #666;
+      stroke-width: 1;
+      fill: none;
+    }
+
+    #mermaid-svg-7538147 .dashed-line {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-7538147 .dotted-line {
+      stroke-dasharray: 1 2;
+    }
+
+    #mermaid-svg-7538147 #compositionStart,
+    #mermaid-svg-7538147 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-7538147 #compositionEnd,
+    #mermaid-svg-7538147 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-7538147 #dependencyStart,
+    #mermaid-svg-7538147 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-7538147 #dependencyStart,
+    #mermaid-svg-7538147 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-7538147 #extensionStart,
+    #mermaid-svg-7538147 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-7538147 #extensionEnd,
+    #mermaid-svg-7538147 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-7538147 #aggregationStart,
+    #mermaid-svg-7538147 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-7538147 #aggregationEnd,
+    #mermaid-svg-7538147 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-7538147 #lollipopStart,
+    #mermaid-svg-7538147 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-7538147 #lollipopEnd,
+    #mermaid-svg-7538147 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-7538147 .edgeTerminals {
+      font-size: 11px;
+    }
+
+    #mermaid-svg-7538147 .classTitleText {
+      text-anchor: middle;
+      font-size: 18px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-7538147 :root {
+      --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+    }
+  </style>
+  <g>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker aggregation classDiagram" id="classDiagram-aggregationStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker aggregation classDiagram" id="classDiagram-aggregationEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker extension classDiagram" id="classDiagram-extensionStart">
+        <path d="M 1,7 L18,13 V 1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker extension classDiagram" id="classDiagram-extensionEnd">
+        <path d="M 1,1 V 13 L18,7 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker composition classDiagram" id="classDiagram-compositionStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker composition classDiagram" id="classDiagram-compositionEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker dependency classDiagram" id="classDiagram-dependencyStart">
+        <path d="M 5,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker dependency classDiagram" id="classDiagram-dependencyEnd">
+        <path d="M 18,7 L9,13 L14,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker lollipop classDiagram" id="classDiagram-lollipopStart">
+        <circle r="6" cy="7" cx="6" fill="white" stroke="black"></circle>
+      </marker>
+    </defs>
+    <g class="root">
+      <g class="clusters"></g>
+      <g class="edgePaths">
+        <path marker-end="url(#classDiagram-extensionEnd)" style="fill:none" class="edge-pattern-solid relation" id="id1" d="M213.19,110.176L195.278,116.808C177.367,123.441,141.543,136.705,123.632,149.97C105.72,163.235,105.72,176.5,105.72,183.132L105.72,189.764"></path>
+        <path marker-end="url(#classDiagram-extensionEnd)" style="fill:none" class="edge-pattern-solid relation" id="id2" d="M351.161,110.176L351.161,116.808C351.161,123.441,351.161,136.705,351.161,149.97C351.161,163.235,351.161,176.5,351.161,183.132L351.161,189.764"></path>
+        <path marker-end="url(#classDiagram-extensionEnd)" style="fill:none" class="edge-pattern-solid relation" id="id3" d="M489.131,110.176L507.043,116.808C524.954,123.441,560.778,136.705,578.689,149.97C596.601,163.235,596.601,176.5,596.601,183.132L596.601,189.764"></path>
+        <path marker-end="url(#classDiagram-extensionEnd)" style="fill:none" class="edge-pattern-solid relation" id="id4" d="M105.72,291.94L105.72,298.573C105.72,305.205,105.72,318.47,130.34,335.903C154.96,353.336,204.2,374.938,228.82,385.739L253.44,396.54"></path>
+        <path marker-end="url(#classDiagram-extensionEnd)" style="fill:none" class="edge-pattern-solid relation" id="id5" d="M351.161,291.94L351.161,298.573C351.161,305.205,351.161,318.47,351.161,331.734C351.161,344.999,351.161,358.264,351.161,364.896L351.161,371.528"></path>
+        <path marker-end="url(#classDiagram-extensionEnd)" style="fill:none" class="edge-pattern-solid relation" id="id6" d="M596.601,291.94L596.601,298.573C596.601,305.205,596.601,318.47,571.981,335.903C547.361,353.336,498.121,374.938,473.501,385.739L448.881,396.54"></path>
+      </g>
+      <g class="edgeLabels">
+        <g transform="translate(105.72016906738281, 149.9701738357544)" class="edgeLabel">
+          <g transform="translate(-26.41335105895996, -14.794034004211426)" class="label">
+            <foreignObject height="29.58806800842285" width="52.82670211791992">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel">
+                  <span class="edgeLabel">creates</span>
+                </span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(351.16050720214844, 149.9701738357544)" class="edgeLabel">
+          <g transform="translate(-26.41335105895996, -14.794034004211426)" class="label">
+            <foreignObject height="29.58806800842285" width="52.82670211791992">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel">
+                  <span class="edgeLabel">creates</span>
+                </span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(596.6008453369141, 149.9701738357544)" class="edgeLabel">
+          <g transform="translate(-26.41335105895996, -14.794034004211426)" class="label">
+            <foreignObject height="29.58806800842285" width="52.82670211791992">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel">
+                  <span class="edgeLabel">creates</span>
+                </span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(105.72016906738281, 331.7343816757202)" class="edgeLabel">
+          <g transform="translate(-12.663352012634277, -14.794034004211426)" class="label">
+            <foreignObject height="29.58806800842285" width="25.326704025268555">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel">
+                  <span class="edgeLabel">is-a</span>
+                </span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(351.16050720214844, 331.7343816757202)" class="edgeLabel">
+          <g transform="translate(-12.663352012634277, -14.794034004211426)" class="label">
+            <foreignObject height="29.58806800842285" width="25.326704025268555">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel">
+                  <span class="edgeLabel">is-a</span>
+                </span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(596.6008453369141, 331.7343816757202)" class="edgeLabel">
+          <g transform="translate(-12.663352012634277, -14.794034004211426)" class="label">
+            <foreignObject height="29.58806800842285" width="25.326704025268555">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel">
+                  <span class="edgeLabel">is-a</span>
+                </span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+      <g class="nodes">
+        <g transform="translate(351.16050720214844, 59.088069915771484)" id="classid-PaymentProcessorFactory-28" class="node default">
+          <rect height="102.1761360168457" width="506.39202880859375" y="-51.08806800842285" x="-253.19601440429688" class="outer title-state"></rect>
+          <line y2="-9.5" y1="-9.5" x2="253.19601440429688" x1="-253.19601440429688" class="divider"></line>
+          <line y2="6.5" y1="6.5" x2="253.19601440429688" x1="-253.19601440429688" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -96.42755126953125, -43.58806800842285)" height="29.58806800842285" width="192.8551025390625" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">PaymentProcessorFactory</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -245.69601440429688, 14)" height="29.58806800842285" width="491.39202880859375">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+createProcessor(type: string, amount: number) : PaymentProcessor</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(105.72016906738281, 240.8522777557373)" id="classid-PaypalProcessor-29" class="node default">
+          <rect height="102.1761360168457" width="195.44033813476562" y="-51.08806800842285" x="-97.72016906738281" class="outer title-state"></rect>
+          <line y2="-9.5" y1="-9.5" x2="97.72016906738281" x1="-97.72016906738281" class="divider"></line>
+          <line y2="6.5" y1="6.5" x2="97.72016906738281" x1="-97.72016906738281" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -60.305397033691406, -43.58806800842285)" height="29.58806800842285" width="120.61079406738281" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">PaypalProcessor</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -90.22016906738281, 14)" height="29.58806800842285" width="180.44033813476562">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+processPayment() : void</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(351.16050720214844, 240.8522777557373)" id="classid-StripeProcessor-30" class="node default">
+          <rect height="102.1761360168457" width="195.44033813476562" y="-51.08806800842285" x="-97.72016906738281" class="outer title-state"></rect>
+          <line y2="-9.5" y1="-9.5" x2="97.72016906738281" x1="-97.72016906738281" class="divider"></line>
+          <line y2="6.5" y1="6.5" x2="97.72016906738281" x1="-97.72016906738281" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -58.49431610107422, -43.58806800842285)" height="29.58806800842285" width="116.98863220214844" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">StripeProcessor</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -90.22016906738281, 14)" height="29.58806800842285" width="180.44033813476562">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+processPayment() : void</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(596.6008453369141, 240.8522777557373)" id="classid-BankTransferProcessor-31" class="node default">
+          <rect height="102.1761360168457" width="195.44033813476562" y="-51.08806800842285" x="-97.72016906738281" class="outer title-state"></rect>
+          <line y2="-9.5" y1="-9.5" x2="97.72016906738281" x1="-97.72016906738281" class="divider"></line>
+          <line y2="6.5" y1="6.5" x2="97.72016906738281" x1="-97.72016906738281" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -84.94316864013672, -43.58806800842285)" height="29.58806800842285" width="169.88633728027344" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">BankTransferProcessor</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -90.22016906738281, 14)" height="29.58806800842285" width="180.44033813476562">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+processPayment() : void</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(351.16050720214844, 439.41051864624023)" id="classid-PaymentProcessor-32" class="node default">
+          <rect height="135.76420402526855" width="195.44033813476562" y="-67.88210201263428" x="-97.72016906738281" class="outer title-state"></rect>
+          <line y2="-26.294034004211426" y1="-26.294034004211426" x2="97.72016906738281" x1="-97.72016906738281" class="divider"></line>
+          <line y2="23.294034004211426" y1="23.294034004211426" x2="97.72016906738281" x1="-97.72016906738281" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -68.38777923583984, -60.38210201263428)" height="29.58806800842285" width="136.7755584716797" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">PaymentProcessor</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -90.22016906738281, -14.794034004211426)" height="29.58806800842285" width="125.29829406738281">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-amount: number</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -90.22016906738281, 30.794034004211426)" height="29.58806800842285" width="180.44033813476562">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+processPayment() : void</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -141,6 +141,119 @@ Factory Method Kalıbının uygulanmasına ilişkin bu özel örnekte, bir aray�
 
 <br/>
 
+## Factory Method Kalıbı Gerçek Dünya Örneği
+
+PayPal, Stripe ve Banka Havalesi gibi birden fazla ödeme türünü destekleyen bir e-ticaret platformu oluşturduğunuzu düşünün. Bu ödeme türlerinin her birinin ödemeleri işlemek için kendi yöntemleri var ancak hepsinin ortak bir amacı var: bir ödemeyi işlemek.
+
+<br/>
+
+<p align="center">
+  <img 
+  width="80%" 
+  title="Factory Method Example"
+  src="images/factory-method-example.svg" />
+</p>
+
+<br/>
+
+Bu ödeme türlerinin her biri ödemeleri işlemek için kendi yöntemlerine sahiptir, ancak hepsinin ortak bir amacı vardır: bir ödemeyi işlemek.
+
+<br/>
+
+İlk olarak, temel bir PaymentProcessor sınıfı oluşturalım:
+
+```tsx
+abstract class PaymentProcessor {
+  constructor(public amount: number) {}
+
+  abstract processPayment(): void;
+}
+```
+
+<br/>
+
+Şimdi, belirli ödeme işlemcilerini tanımlıyoruz:
+
+```tsx
+class PaypalProcessor extends PaymentProcessor {
+  processPayment() {
+    // Insert PayPal-specific payment processing logic here.
+    console.log(`Processing PayPal payment of $${this.amount}`);
+  }
+}
+
+class StripeProcessor extends PaymentProcessor {
+  processPayment() {
+    // Insert Stripe-specific payment processing logic here.
+    console.log(`Processing Stripe payment of $${this.amount}`);
+  }
+}
+
+class BankTransferProcessor extends PaymentProcessor {
+  processPayment() {
+    // Insert bank transfer-specific payment processing logic here.
+    console.log(`Processing Bank Transfer payment of $${this.amount}`);
+  }
+}
+```
+
+<br/>
+
+Ardından, belirli ödeme işlemcisi türünü oluşturmak için PaymentProcessorFactory'mizi oluşturuyoruz:
+
+```tsx
+class PaymentProcessorFactory {
+  public createProcessor(type: string, amount: number): PaymentProcessor {
+    switch (type) {
+      case "Paypal":
+        return new PaypalProcessor(amount);
+      case "Stripe":
+        return new StripeProcessor(amount);
+      case "BankTransfer":
+        return new BankTransferProcessor(amount);
+      default:
+        throw new Error("Invalid payment processor type");
+    }
+  }
+}
+```
+
+<br/>
+
+Son olarak, PaymentProcessorFactory'mizi kullanabiliriz:
+
+```tsx
+const paymentProcessorFactory = new PaymentProcessorFactory();
+
+// Use the factory to create a PayPal payment processor
+const paypalProcessor = paymentProcessorFactory.createProcessor("Paypal", 100);
+paypalProcessor.processPayment();
+// Outputs: Processing PayPal payment of $100
+
+// Use the factory to create a Stripe payment processor
+const stripeProcessor = paymentProcessorFactory.createProcessor("Stripe", 200);
+stripeProcessor.processPayment();
+// Outputs: Processing Stripe payment of $200
+
+// Use the factory to create a Bank Transfer payment processor
+const bankTransferProcessor = paymentProcessorFactory.createProcessor(
+  "BankTransfer",
+  300
+);
+bankTransferProcessor.processPayment();
+// Outputs: Processing Bank Transfer payment of $300
+```
+
+<br/>
+
+Bu gerçek dünya örneğinde, farklı ödeme işlemcisi türlerinin oluşturulmasını basitleştirmek için Factory kalıbının nasıl kullanıldığını görebilirsiniz. Factory kalıbı, istemci kodunu değiştirmek zorunda kalmadan gelecekte yeni ödeme işlemcisi türlerinin eklenmesini kolaylaştırır.
+
+<br/>
+
+---
+
+<br/>
+
 ## Factory Method Kalıbı Ne Zaman Kullanılır?
 
 Factory Method Kalıbı genellikle bir sınıfın oluşturması gereken nesnelerin türünü tahmin edemediği durumlarda kullanılır.

@@ -1,3 +1,5 @@
+<br/>
+
 # Factory Method Kalıbı (Pattern)
 
 Factory Method kalıbı, bir üst sınıfta nesneler oluşturmak için bir arayüz sağlayan, ancak alt sınıfların oluşturulacak nesnelerin türünü değiştirmesine izin veren bir tür yaratımsal tasarım kalıbıdır (creational design pattern).

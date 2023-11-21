@@ -115,7 +115,7 @@ Birden fazla platformda (örneğin Windows ve MacOS) çalışması gereken bir �
 
 <p align="center">
   <img 
-  width="90%" 
+  width="100%" 
   title="Abstract Factory Diagram"
   src="images/abstract-factory-example.svg" />
 </p>

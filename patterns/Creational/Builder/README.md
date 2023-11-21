@@ -2,7 +2,7 @@
 
 # Builder Kalıbı (Pattern)
 
-Builder kalıbı, karmaşık nesneleri adım adım oluşturmanızı sağlayan bir yaratımsal tasarım kalıbıdır.
+Builder kalıbı, karmaşık nesneleri adım adım oluşturmanızı sağlayan bir yaratımsal tasarım kalıbıdır (creational design pattern).
 
 ![builder-diagram.svg](images/builder-diagram.svg)
 
@@ -14,9 +14,9 @@ Builder kalıbı, karmaşık nesneleri adım adım oluşturmanızı sağlayan bi
 
 ## Director
 
-Yönetmen, oluşturma adımlarını belirli bir sırayla yürütmekten sorumludur. Üründen sorumlu değildir, yalnızca oluşturması söylenen ürün türüne göre oluşturma sürecini yönlendirir. Kontrol ettiği bir builder örneği (instance) ile çalışır.
+Director, oluşturma adımlarını belirli bir sırayla yürütmekten sorumludur. Üründen sorumlu değildir, yalnızca oluşturması söylenen ürün türüne göre oluşturma sürecini yönlendirir. Kontrol ettiği bir builder örneği (instance) ile çalışır.
 
-Örneğimizde, Yönetmenin bir ürün oluşturmak için iki yöntemi vardır: buildMinimalViableProduct ve buildFullFeaturedProduct. İlk yöntem minimum özelliklere sahip bir ürün oluşturur (builder'ın setPartA yöntemini çağırır) ve ikinci yöntem tam özellikli bir ürün oluşturur (builder'ın setPartA, setPartB ve setPartC yöntemlerini çağırır).
+Örneğimizde, Director bir ürün oluşturmak için iki yöntemi sahiptir: buildMinimalViableProduct ve buildFullFeaturedProduct. İlk yöntem minimum özelliklere sahip bir ürün oluşturur (builder'ın setPartA yöntemini çağırır) ve ikinci yöntem tam özellikli bir ürün oluşturur (builder'ın setPartA, setPartB ve setPartC yöntemlerini çağırır).
 
 İstemci kodu oluşturucuları (builders) doğrudan kontrol edebileceğinden, Director sınıfı isteğe bağlıdır. Bununla birlikte, Director sınıfı, özellikle bu kod karmaşık yapım adımları dizileri içeriyorsa, belirli bir tür ürün üreten yapım kodunu koymak için iyi bir yer olabilir.
 

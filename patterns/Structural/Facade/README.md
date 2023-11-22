@@ -17,7 +17,13 @@ Facade kalıbı, karmaşık bir sisteme basitleştirilmiş bir arayüz sağlayan
 
 Bunu bir binanın dış cephesi gibi düşünün. Cephe (Facade), karmaşık iç sistemi gizleyen dış dünyaya yönelik bir arayüzdür. Aynı şekilde, programlamada bir Facade, karmaşık bir sisteme basit bir arayüz (interface) sağlarken, gerektiğinde iç yapısına erişime izin verir.
 
-<br>
+<br/>
+
+---
+
+<br/>
+
+## Facade Kalıbının Uygulanması (Implementation)
 
 Typescript'te Facade kalıbının basit bir örneği. Çeşitli kahve türlerini hazırlamak için karmaşık bir sistemimiz olduğunu düşünün:
 

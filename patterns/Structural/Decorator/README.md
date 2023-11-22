@@ -6,7 +6,7 @@ Decorator kalıbı, mevcut bir nesnenin uygulamasını değiştirmeden dinamik o
 
 <p align="center">
   <img 
-  width="60%" 
+  width="50%" 
   title="Decorator Diagram"
   src="images/decorator-diagram.svg" />
 </p>

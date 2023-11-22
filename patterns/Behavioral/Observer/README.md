@@ -8,7 +8,7 @@ Observer kalıbı, gözlemledikleri nesnede meydana gelen yeni olaylar hakkında
 
 <p align="center">
   <img 
-  width="70%" 
+  width="60%" 
   title="Observer Diagram"
   src="images/observer-diagram.svg" />
 </p>
@@ -132,7 +132,7 @@ Diyelim ki sıcaklık (temperature), nem (humidity) ve basıncı (pressure) öl�
 
 <p align="center">
   <img 
-  width="70%" 
+  width="90%" 
   title="Observer Example"
   src="images/observer-example.svg" />
 </p>

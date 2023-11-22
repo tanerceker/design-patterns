@@ -1,6 +1,6 @@
 <br/>
 
-## Yapısal Tasarım Kalıpları — Structural Design Patterns
+# Yapısal Tasarım Kalıpları — Structural Design Patterns
 
 Yapısal tasarım kalıpları, sınıfların ve nesnelerin bileşimi (composition) ile ilgilidir. Sınıfları ve nesneleri kullanarak büyük yapılar (large structures) oluşturmaya yardımcı olurken aynı zamanda yapıların ölçeklenebilir (scalable), verimli (efficient) ve sürdürülebilir (maintainable) olmasını sağlarlar.
 
@@ -21,7 +21,7 @@ Bu kalıplar, varlıklar (entities) arasındaki ilişkileri belirleyerek ve bunl
 
 <br/>
 
-# Yapısal Tasarım Kalıpları Nedir?
+## Yapısal Tasarım Kalıpları Nedir?
 
 Yapısal tasarım kalıpları, nesne bileşimi (composition) ve sınıfların ve nesnelerin yapısıyla (structure) ilgilenen bir tasarım kalıbı türüdür. Bir sistemin bir bölümünde değişiklik yapıldığında bunun diğer bölümlerde değişiklik gerektirmemesini sağlamaya yardımcı olurlar. Bu da sistemi daha esnek ve bakımı daha kolay hale getirir.
 

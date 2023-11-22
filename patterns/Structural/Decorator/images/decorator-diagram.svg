@@ -1,0 +1,423 @@
+<svg aria-roledescription="classDiagram" role="graphics-document document" viewBox="0 0 408.01702880859375 624.0568237304688" style="max-width: 408.01702880859375px;" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-svg-5708830">
+  <style>
+    #mermaid-svg-5708830 {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-5708830 .error-icon {
+      fill: #552222;
+    }
+
+    #mermaid-svg-5708830 .error-text {
+      fill: #552222;
+      stroke: #552222;
+    }
+
+    #mermaid-svg-5708830 .edge-thickness-normal {
+      stroke-width: 2px;
+    }
+
+    #mermaid-svg-5708830 .edge-thickness-thick {
+      stroke-width: 3.5px;
+    }
+
+    #mermaid-svg-5708830 .edge-pattern-solid {
+      stroke-dasharray: 0;
+    }
+
+    #mermaid-svg-5708830 .edge-pattern-dashed {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-5708830 .edge-pattern-dotted {
+      stroke-dasharray: 2;
+    }
+
+    #mermaid-svg-5708830 .marker {
+      fill: #666;
+      stroke: #666;
+    }
+
+    #mermaid-svg-5708830 .marker.cross {
+      stroke: #666;
+    }
+
+    #mermaid-svg-5708830 svg {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+    }
+
+    #mermaid-svg-5708830 g.classGroup text {
+      fill: #999;
+      fill: #111111;
+      stroke: none;
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-5708830 g.classGroup text .title {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-5708830 .nodeLabel,
+    #mermaid-svg-5708830 .edgeLabel {
+      color: #111111;
+    }
+
+    #mermaid-svg-5708830 .edgeLabel .label rect {
+      fill: #eee;
+    }
+
+    #mermaid-svg-5708830 .label text {
+      fill: #111111;
+    }
+
+    #mermaid-svg-5708830 .edgeLabel .label span {
+      background: #eee;
+    }
+
+    #mermaid-svg-5708830 .classTitle {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-5708830 .node rect,
+    #mermaid-svg-5708830 .node circle,
+    #mermaid-svg-5708830 .node ellipse,
+    #mermaid-svg-5708830 .node polygon,
+    #mermaid-svg-5708830 .node path {
+      fill: #eee;
+      stroke: #999;
+      stroke-width: 1px;
+    }
+
+    #mermaid-svg-5708830 .divider {
+      stroke: #999;
+      stroke: 1;
+    }
+
+    #mermaid-svg-5708830 g.clickable {
+      cursor: pointer;
+    }
+
+    #mermaid-svg-5708830 g.classGroup rect {
+      fill: #eee;
+      stroke: #999;
+    }
+
+    #mermaid-svg-5708830 g.classGroup line {
+      stroke: #999;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5708830 .classLabel .box {
+      stroke: none;
+      stroke-width: 0;
+      fill: #eee;
+      opacity: 0.5;
+    }
+
+    #mermaid-svg-5708830 .classLabel .label {
+      fill: #999;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-5708830 .relation {
+      stroke: #666;
+      stroke-width: 1;
+      fill: none;
+    }
+
+    #mermaid-svg-5708830 .dashed-line {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-5708830 .dotted-line {
+      stroke-dasharray: 1 2;
+    }
+
+    #mermaid-svg-5708830 #compositionStart,
+    #mermaid-svg-5708830 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5708830 #compositionEnd,
+    #mermaid-svg-5708830 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5708830 #dependencyStart,
+    #mermaid-svg-5708830 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5708830 #dependencyStart,
+    #mermaid-svg-5708830 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5708830 #extensionStart,
+    #mermaid-svg-5708830 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5708830 #extensionEnd,
+    #mermaid-svg-5708830 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5708830 #aggregationStart,
+    #mermaid-svg-5708830 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5708830 #aggregationEnd,
+    #mermaid-svg-5708830 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5708830 #lollipopStart,
+    #mermaid-svg-5708830 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5708830 #lollipopEnd,
+    #mermaid-svg-5708830 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-5708830 .edgeTerminals {
+      font-size: 11px;
+    }
+
+    #mermaid-svg-5708830 .classTitleText {
+      text-anchor: middle;
+      font-size: 18px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-5708830 :root {
+      --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+    }
+  </style>
+  <g>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker aggregation classDiagram" id="classDiagram-aggregationStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker aggregation classDiagram" id="classDiagram-aggregationEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker extension classDiagram" id="classDiagram-extensionStart">
+        <path d="M 1,7 L18,13 V 1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker extension classDiagram" id="classDiagram-extensionEnd">
+        <path d="M 1,1 V 13 L18,7 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker composition classDiagram" id="classDiagram-compositionStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker composition classDiagram" id="classDiagram-compositionEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker dependency classDiagram" id="classDiagram-dependencyStart">
+        <path d="M 5,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker dependency classDiagram" id="classDiagram-dependencyEnd">
+        <path d="M 18,7 L9,13 L14,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker lollipop classDiagram" id="classDiagram-lollipopStart">
+        <circle r="6" cy="7" cx="6" fill="white" stroke="black"></circle>
+      </marker>
+    </defs>
+    <g class="root">
+      <g class="clusters"></g>
+      <g class="edgePaths">
+        <path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-dashed relation" id="id1" d="M118.693,177.352L114.495,181.519C110.297,185.686,101.901,194.019,97.702,207.95C93.504,221.882,93.504,241.411,93.504,251.176L93.504,260.94"></path>
+        <path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-dashed relation" id="id2" d="M289.324,177.352L293.522,181.519C297.72,185.686,306.117,194.019,310.315,202.352C314.513,210.686,314.513,219.019,314.513,223.186L314.513,227.352"></path>
+        <path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-solid relation" id="id3" d="M314.513,430.293L314.513,434.459C314.513,438.626,314.513,446.959,314.513,455.293C314.513,463.626,314.513,471.959,314.513,476.126L314.513,480.293"></path>
+      </g>
+      <g class="edgeLabels">
+        <g class="edgeLabel">
+          <g transform="translate(0, 0)" class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel"></span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g class="edgeLabel">
+          <g transform="translate(0, 0)" class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel"></span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g class="edgeLabel">
+          <g transform="translate(0, 0)" class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel"></span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+      <g class="nodes">
+        <g transform="translate(204.00851440429688, 92.67613983154297)" id="classid-Coffee-45" class="node default">
+          <rect height="169.3522720336914" width="171.00851440429688" y="-84.6761360168457" x="-85.50425720214844" class="outer title-state"></rect>
+          <line y2="-9.5" y1="-9.5" x2="85.50425720214844" x1="-85.50425720214844" class="divider"></line>
+          <line y2="6.5" y1="6.5" x2="85.50425720214844" x1="-85.50425720214844" class="divider"></line>
+          <g class="label">
+            <foreignObject transform="translate( -41.171875, -77.1761360168457)" height="29.58806800842285" width="82.34375">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">«interface»</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -24.53125, -43.58806800842285)" height="29.58806800842285" width="49.0625" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">Coffee</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.00425720214844, 14)" height="29.58806800842285" width="119.61647033691406">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+cost() : number</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.00425720214844, 47.58806800842285)" height="29.58806800842285" width="156.00851440429688">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+description() : string</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(93.50425720214844, 328.82244873046875)" id="classid-SimpleCoffee-46" class="node default">
+          <rect height="135.76420402526855" width="171.00851440429688" y="-67.88210201263428" x="-85.50425720214844" class="outer title-state"></rect>
+          <line y2="-26.294034004211426" y1="-26.294034004211426" x2="85.50425720214844" x1="-85.50425720214844" class="divider"></line>
+          <line y2="-10.294034004211426" y1="-10.294034004211426" x2="85.50425720214844" x1="-85.50425720214844" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -49.502838134765625, -60.38210201263428)" height="29.58806800842285" width="99.00567626953125" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">SimpleCoffee</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.00425720214844, -2.794034004211426)" height="29.58806800842285" width="119.61647033691406">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+cost() : number</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.00425720214844, 30.794034004211426)" height="29.58806800842285" width="156.00851440429688">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+description() : string</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(314.5127716064453, 328.82244873046875)" id="classid-CoffeeDecorator-47" class="node default">
+          <rect height="202.94034004211426" width="171.00851440429688" y="-101.47017002105713" x="-85.50425720214844" class="outer title-state"></rect>
+          <line y2="-26.294034004211426" y1="-26.294034004211426" x2="85.50425720214844" x1="-85.50425720214844" class="divider"></line>
+          <line y2="23.294034004211426" y1="23.294034004211426" x2="85.50425720214844" x1="-85.50425720214844" class="divider"></line>
+          <g class="label">
+            <foreignObject transform="translate( -37.911930084228516, -93.97017002105713)" height="29.58806800842285" width="75.82386016845703">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">«abstract»</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -61.4417610168457, -60.38210201263428)" height="29.58806800842285" width="122.8835220336914" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">CoffeeDecorator</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.00425720214844, -14.794034004211426)" height="29.58806800842285" width="112.31533813476562">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">#coffee: Coffee</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.00425720214844, 30.794034004211426)" height="29.58806800842285" width="119.61647033691406">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+cost() : number</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.00425720214844, 64.38210201263428)" height="29.58806800842285" width="156.00851440429688">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+description() : string</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(314.5127716064453, 548.1747207641602)" id="classid-MilkDecorator-48" class="node default">
+          <rect height="135.76420402526855" width="171.00851440429688" y="-67.88210201263428" x="-85.50425720214844" class="outer title-state"></rect>
+          <line y2="-26.294034004211426" y1="-26.294034004211426" x2="85.50425720214844" x1="-85.50425720214844" class="divider"></line>
+          <line y2="-10.294034004211426" y1="-10.294034004211426" x2="85.50425720214844" x1="-85.50425720214844" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -52.002838134765625, -60.38210201263428)" height="29.58806800842285" width="104.00567626953125" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">MilkDecorator</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.00425720214844, -2.794034004211426)" height="29.58806800842285" width="119.61647033691406">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+cost() : number</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.00425720214844, 30.794034004211426)" height="29.58806800842285" width="156.00851440429688">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+description() : string</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

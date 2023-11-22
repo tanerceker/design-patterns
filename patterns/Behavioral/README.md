@@ -8,7 +8,7 @@ Davranışsal tasarım kalıpları, nesneler arasında verimli iletişim (effici
 
 <p align="center">
   <img 
-  width="30%" 
+  width="20%" 
   title="Behavioral Design Patterns"
   src="../../images/behavioral-design-patterns.svg" />
 </p>
@@ -69,6 +69,6 @@ Chain of Responsibility kalıbı, her nesnenin bir isteği işleme veya zincirde
 
 <br/>
 
-Bunlar önemli davranış kalıplarından sadece birkaç örnektir. Her kalıp belirli tasarım zorluklarını ele alır ve kod modülerliğini, genişletilebilirliğini ve sürdürülebilirliğini geliştiren çözümler sunar. Kalıp seçimi, çözmeye çalıştığınız soruna ve yazılım tasarımınızın özel gereksinimlerine bağlıdır.
+Her kalıp belirli tasarım zorluklarını ele alır ve kod modülerliğini, genişletilebilirliğini ve sürdürülebilirliğini geliştiren çözümler sunar. Kalıp seçimi, çözmeye çalıştığınız soruna ve yazılım tasarımınızın özel gereksinimlerine bağlıdır.
 
 <br/>

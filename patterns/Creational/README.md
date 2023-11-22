@@ -32,33 +32,11 @@ Nesne yönelimli programlamada (OOP) yaratımsal tasarım kalıpları, nesne yar
 
 ### **Singleton**
 
-<br/>
-
-<p align="left">
-  <img 
-  width="60%" 
-  title="Singleton"
-  src="../../images/singleton.svg" />
-</p>
-
-<br/>
-
 Bu kalıp, bir sınıfın örneklenmesini kısıtlar ve java sanal makinesinde sınıfın yalnızca bir örneğinin (only one instance) bulunmasını sağlar. Nesneye global bir erişim noktası sağlar. Bu, sistem genelinde eylemleri koordine etmek için tam olarak bir nesneye ihtiyaç duyulduğunda kullanışlıdır.
 
 <br/>
 
 ### **Factory Method**
-
-<br/>
-
-<p align="left">
-  <img 
-  width="60%" 
-  title="Factory Method"
-  src="../../images/factory-method.svg" />
-</p>
-
-<br/>
 
 Bu kalıp, örnekleme mantığını (instantiation logic) alt sınıflara (child classes) devretmek için bir yol sağlar. Factory Method kalıbı, nesne oluşturma durumunu Factory Method uygulayan alt sınıflara (subclasses) devreder.
 
@@ -66,33 +44,11 @@ Bu kalıp, örnekleme mantığını (instantiation logic) alt sınıflara (child
 
 ### **Abstract Factory**
 
-<br/>
-
-<p align="left">
-  <img 
-  width="60%" 
-  title="Abstract Factory"
-  src="../../images/abstract-factory.svg" />
-</p>
-
-<br/>
-
 Bu kalıp, somut sınıflarını (concrete classes) belirtmeden ilgili veya bağımlı nesne aileleri oluşturmak için bir arayüz (interface) sağlar. Somut sınıflarını (Concrete classes) belirtmeden ortak bir temaya sahip bir grup fabrikayı (factories) kapsüller (encapsulate).
 
 <br/>
 
 ### **Builder**
-
-<br/>
-
-<p align="left">
-  <img 
-  width="60%" 
-  title="Builder"
-  src="../../images/builder.svg" />
-</p>
-
-<br/>
 
 Bu kalıp, basit nesneler ve adım adım bir yaklaşım kullanarak karmaşık bir nesne oluşturur. Bu tür bir tasarım kalıbı, bir nesne oluşturmanın en iyi yollarından birini sağladığı için yaratımsal kalıp altında yer alır. Karmaşık bir nesnenin inşası ve temsili için net bir ayrım ve benzersiz bir katman sağlar.
 
@@ -100,18 +56,9 @@ Bu kalıp, basit nesneler ve adım adım bir yaklaşım kullanarak karmaşık bi
 
 ### **Prototype**
 
-<br/>
-
-<p align="left">
-  <img 
-  width="60%" 
-  title="Prototype"
-  src="../../images/prototype.svg" />
-</p>
-
-<br/>
-
 Bu kalıp, oluşturulacak nesnelerin türü, yeni nesneler üretmek için klonlanan prototip bir örnek tarafından belirlendiğinde kullanılır. Bu kalıp, mevcut nesnenin bir klonunu oluşturmayı söyleyen bir prototip arayüzünün uygulanmasını içerir.
+
+<br/>
 
 Tüm bu durumlarda, sistem daha esnek, uyarlanabilir ve yeniden kullanılabilirdir çünkü uygulamanın sınıflarına bağlı değildir, ancak gerekli arayüzü karşılayan herhangi bir sınıfla çalışabilir. Yaratımsal kalıpların tümü, bu sorumlulukları kapsülleyerek sistem modülerliğini geliştirmenin bir yolunu sağlar.
 

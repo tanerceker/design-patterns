@@ -1,3 +1,5 @@
+<br/>
+
 # Adapter Kalıbı (Pattern)
 
 Adapter Kalıbı, mevcut bir sınıfın arayüzünün başka bir arayüzden kullanılmasına izin veren bir yazılım tasarım kalıbıdır. Genellikle mevcut sınıfların kaynak kodlarını değiştirmeden diğerleriyle birlikte çalışmasını sağlamak için kullanılır. Adapter Kalıbı özellikle birbirleriyle iletişim kurması gereken sınıfların uyumlu arayüzlere sahip olmadığı durumlarda kullanışlıdır.

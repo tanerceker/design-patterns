@@ -8,7 +8,7 @@ Adapter Kalıbı, mevcut bir sınıfın arayüzünün başka bir arayüzden kull
 
 <p align="center">
   <img 
-  width="80%" 
+  width="60%" 
   title="Adapter Diagram"
   src="images/adapter-diagram.svg" />
 </p>
@@ -132,7 +132,7 @@ Aşağıdaki senaryoyu düşünün: Uygulamanız bir MySQL veritabanı kullanıy
 
 <p align="center">
   <img 
-  width="80%" 
+  width="75%" 
   title="Adapter Example"
   src="images/adapter-example.svg" />
 </p>

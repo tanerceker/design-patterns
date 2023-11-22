@@ -36,7 +36,7 @@ Nesne yönelimli programlamada (OOP) yaratımsal tasarım kalıpları, nesne yar
 
 <p align="center">
   <img 
-  width="70%" 
+  width="60%" 
   title="Singleton"
   src="../../images/singleton.svg" />
 </p>
@@ -53,7 +53,7 @@ Bu kalıp, bir sınıfın örneklenmesini kısıtlar ve java sanal makinesinde s
 
 <p align="center">
   <img 
-  width="70%" 
+  width="60%" 
   title="Factory Method"
   src="../../images/factory-method.svg" />
 </p>
@@ -70,7 +70,7 @@ Bu kalıp, örnekleme mantığını (instantiation logic) alt sınıflara (child
 
 <p align="center">
   <img 
-  width="70%" 
+  width="60%" 
   title="Abstract Factory"
   src="../../images/abstract-factory.svg" />
 </p>
@@ -87,7 +87,7 @@ Bu kalıp, somut sınıflarını (concrete classes) belirtmeden ilgili veya bağ
 
 <p align="center">
   <img 
-  width="70%" 
+  width="60%" 
   title="Builder"
   src="../../images/builder.svg" />
 </p>
@@ -104,7 +104,7 @@ Bu kalıp, basit nesneler ve adım adım bir yaklaşım kullanarak karmaşık bi
 
 <p align="center">
   <img 
-  width="70%" 
+  width="60%" 
   title="Prototype"
   src="../../images/prototype.svg" />
 </p>
@@ -133,13 +133,19 @@ Yaratımsal tasarım kalıplarını kullanmak istememiz için çeşitli nedenler
 
 Yaratımsal kalıplar, nesne yaratımının ne, kim ve ne zaman olacağı konusunda sistemi daha esnek hale getirir. Sistemlerin, çok az değişiklikle veya hiç değişiklik yapmadan yeni parçalar ekleyebileceğiniz değiştirilebilir parçalardan oluşmasına izin verirler. Bu, sistemi yükseltmeyi veya yeni işlevler sağlamak için değiştirmeyi kolaylaştırır.
 
+<br/>
+
 ### Soyutlama ve Ayrıştırma — **Abstraction and Decoupling**
 
 Yaratımsal kalıplar, sistemin hangi sınıfları kullandığı ve bu sınıfların nesnelerinin nasıl oluşturulduğu ve bir araya getirildiği hakkındaki bilgileri kapsüller. Bir istemci ile örneklediği somut sınıfları birbirinden ayırmak için bir yol sağlarlar. Ayrıştırma faydalıdır çünkü değişiklikler yapıldığında bozulma olasılığı daha düşük olan daha esnek bir sisteme yol açar.
 
+<br/>
+
 ### Nesne Oluşturma Süreci Üzerinde Kontrol
 
 Bazı yaratımsal tasarım kalıpları, nesne yaratma süreci üzerinde daha hassas kontrol sağlayarak, basit kurucularla elde edilemeyen nesne yaratma varyasyonlarını veya özel durumları ele almak için adımlar atmanıza olanak tanır.
+
+<br/>
 
 ### Karmaşıklığı Ele Alma
 

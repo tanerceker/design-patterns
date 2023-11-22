@@ -34,7 +34,7 @@ Nesne yönelimli programlamada (OOP) yaratımsal tasarım kalıpları, nesne yar
 
 <br/>
 
-<p align="center">
+<p align="left">
   <img 
   width="60%" 
   title="Singleton"

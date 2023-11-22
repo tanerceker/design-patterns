@@ -33,37 +33,37 @@ Observer kalıbı nesneler arasında bire çok bağımlılık tanımlar; burada 
 
 <br/>
 
-## **Iterator**
+### **Iterator**
 
 Iterator kalıbı, temel temsilini açığa çıkarmadan bir toplama nesnesinin öğelerine sırayla erişmek için bir yol sağlar. Koleksiyonun uygulama ayrıntılarını soyutlayarak bir nesne koleksiyonu içinde tutarlı bir şekilde gezinmenize olanak tanır.
 
 <br/>
 
-## **Strategy**
+### **Strategy**
 
 Strategy kalıbı, birbiriyle değiştirilebilir algoritmalar ailesini kapsüller ve istemcinin algoritmayı çalışma zamanında dinamik olarak seçmesine olanak tanır. Algoritmaları ayrı sınıflara çıkararak daha iyi kod yeniden kullanımı, esneklik ve endişelerin ayrılmasına yardımcı olur.
 
 <br/>
 
-## **Template Method**
+### **Template Method**
 
 Template Method kalıbı, bir algoritmanın iskeletini bir temel sınıfta tanımlar ancak alt sınıfların algoritmanın belirli adımlarını geçersiz kılmasına izin verir. Bir algoritmanın genel yapısını tanımlamak için bir yol sağlarken, alt sınıfların belirli bölümlerini özelleştirmesine izin verir.
 
 <br/>
 
-## **Command**
+### **Command**
 
 Command kalıbı, bir isteği nesne olarak kapsüller ve böylece isteği gönderen ile alıcıyı birbirinden ayırır. İstemcileri farklı isteklerle parametrelendirmenize, istekleri sıraya koymanıza veya günlüğe kaydetmenize ve geri alınabilir işlemleri desteklemenize olanak tanır.
 
 <br/>
 
-## **State**
+### **State**
 
 State kalıbı, bir nesnenin iç durumu değiştiğinde davranışını değiştirmesine olanak tanır. Farklı davranışları ayrı state nesneleri içinde kapsüller ve davranışı geçerli state'e devreder. Bu kalıp, bir nesnenin davranışı durumuna bağlı olduğunda ve dinamik olarak değişmesi gerektiğinde kullanışlıdır.
 
 <br/>
 
-## **Chain of Responsibility**
+### **Chain of Responsibility**
 
 Chain of Responsibility kalıbı, her nesnenin bir isteği işleme veya zincirdeki bir sonraki nesneye aktarma yeteneğine sahip olduğu bir nesne zinciri oluşturur. İsteklerin göndericilerini ve alıcılarını ayırmanıza olanak tanır ve isteklerin ele alınması ve işlenmesinde esneklik sağlar.
 

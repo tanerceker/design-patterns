@@ -1,0 +1,486 @@
+<svg aria-roledescription="classDiagram" role="graphics-document document" viewBox="0 0 1254.89208984375 951.9373779296875" style="max-width: 1254.89208984375px;" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-svg-591908">
+  <style>
+    #mermaid-svg-591908 {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-591908 .error-icon {
+      fill: #552222;
+    }
+
+    #mermaid-svg-591908 .error-text {
+      fill: #552222;
+      stroke: #552222;
+    }
+
+    #mermaid-svg-591908 .edge-thickness-normal {
+      stroke-width: 2px;
+    }
+
+    #mermaid-svg-591908 .edge-thickness-thick {
+      stroke-width: 3.5px;
+    }
+
+    #mermaid-svg-591908 .edge-pattern-solid {
+      stroke-dasharray: 0;
+    }
+
+    #mermaid-svg-591908 .edge-pattern-dashed {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-591908 .edge-pattern-dotted {
+      stroke-dasharray: 2;
+    }
+
+    #mermaid-svg-591908 .marker {
+      fill: #666;
+      stroke: #666;
+    }
+
+    #mermaid-svg-591908 .marker.cross {
+      stroke: #666;
+    }
+
+    #mermaid-svg-591908 svg {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+    }
+
+    #mermaid-svg-591908 g.classGroup text {
+      fill: #999;
+      fill: #111111;
+      stroke: none;
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-591908 g.classGroup text .title {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-591908 .nodeLabel,
+    #mermaid-svg-591908 .edgeLabel {
+      color: #111111;
+    }
+
+    #mermaid-svg-591908 .edgeLabel .label rect {
+      fill: #eee;
+    }
+
+    #mermaid-svg-591908 .label text {
+      fill: #111111;
+    }
+
+    #mermaid-svg-591908 .edgeLabel .label span {
+      background: #eee;
+    }
+
+    #mermaid-svg-591908 .classTitle {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-591908 .node rect,
+    #mermaid-svg-591908 .node circle,
+    #mermaid-svg-591908 .node ellipse,
+    #mermaid-svg-591908 .node polygon,
+    #mermaid-svg-591908 .node path {
+      fill: #eee;
+      stroke: #999;
+      stroke-width: 1px;
+    }
+
+    #mermaid-svg-591908 .divider {
+      stroke: #999;
+      stroke: 1;
+    }
+
+    #mermaid-svg-591908 g.clickable {
+      cursor: pointer;
+    }
+
+    #mermaid-svg-591908 g.classGroup rect {
+      fill: #eee;
+      stroke: #999;
+    }
+
+    #mermaid-svg-591908 g.classGroup line {
+      stroke: #999;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-591908 .classLabel .box {
+      stroke: none;
+      stroke-width: 0;
+      fill: #eee;
+      opacity: 0.5;
+    }
+
+    #mermaid-svg-591908 .classLabel .label {
+      fill: #999;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-591908 .relation {
+      stroke: #666;
+      stroke-width: 1;
+      fill: none;
+    }
+
+    #mermaid-svg-591908 .dashed-line {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-591908 .dotted-line {
+      stroke-dasharray: 1 2;
+    }
+
+    #mermaid-svg-591908 #compositionStart,
+    #mermaid-svg-591908 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-591908 #compositionEnd,
+    #mermaid-svg-591908 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-591908 #dependencyStart,
+    #mermaid-svg-591908 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-591908 #dependencyStart,
+    #mermaid-svg-591908 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-591908 #extensionStart,
+    #mermaid-svg-591908 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-591908 #extensionEnd,
+    #mermaid-svg-591908 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-591908 #aggregationStart,
+    #mermaid-svg-591908 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-591908 #aggregationEnd,
+    #mermaid-svg-591908 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-591908 #lollipopStart,
+    #mermaid-svg-591908 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-591908 #lollipopEnd,
+    #mermaid-svg-591908 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-591908 .edgeTerminals {
+      font-size: 11px;
+    }
+
+    #mermaid-svg-591908 .classTitleText {
+      text-anchor: middle;
+      font-size: 18px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-591908 :root {
+      --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+    }
+  </style>
+  <g>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker aggregation classDiagram" id="classDiagram-aggregationStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker aggregation classDiagram" id="classDiagram-aggregationEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker extension classDiagram" id="classDiagram-extensionStart">
+        <path d="M 1,7 L18,13 V 1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker extension classDiagram" id="classDiagram-extensionEnd">
+        <path d="M 1,1 V 13 L18,7 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker composition classDiagram" id="classDiagram-compositionStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker composition classDiagram" id="classDiagram-compositionEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker dependency classDiagram" id="classDiagram-dependencyStart">
+        <path d="M 5,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker dependency classDiagram" id="classDiagram-dependencyEnd">
+        <path d="M 18,7 L9,13 L14,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker lollipop classDiagram" id="classDiagram-lollipopStart">
+        <circle r="6" cy="7" cx="6" fill="white" stroke="black"></circle>
+      </marker>
+    </defs>
+    <g class="root">
+      <g class="clusters"></g>
+      <g class="edgePaths">
+        <path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-solid relation" id="id1" d="M931.239,210.94L931.239,217.573C931.239,224.205,931.239,237.47,931.239,250.734C931.239,263.999,931.239,277.264,931.239,283.896L931.239,290.528"></path>
+        <path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-solid relation" id="id2" d="M286.793,527.057L286.793,550.483C286.793,573.91,286.793,620.762,300.314,650.821C313.834,680.88,340.876,694.144,354.397,700.777L367.918,707.409"></path>
+        <path marker-start="url(#classDiagram-compositionStart)" style="fill:none" class="edge-pattern-solid relation" id="id3" d="M931.239,627.821L931.239,634.453C931.239,641.086,931.239,654.35,917.718,667.615C904.197,680.88,877.155,694.144,863.634,700.777L850.113,707.409"></path>
+      </g>
+      <g class="edgeLabels">
+        <g transform="translate(931.2386169433594, 250.73437213897705)" class="edgeLabel">
+          <g transform="translate(-41.88920211791992, -14.794034004211426)" class="label">
+            <foreignObject height="29.58806800842285" width="83.77840423583984">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel">
+                  <span class="edgeLabel">implements</span>
+                </span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(286.7926025390625, 667.6150426864624)" class="edgeLabel">
+          <g transform="translate(-41.88920211791992, -14.794034004211426)" class="label">
+            <foreignObject height="29.58806800842285" width="83.77840423583984">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel">
+                  <span class="edgeLabel">implements</span>
+                </span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(931.2386169433594, 667.6150426864624)" class="edgeLabel">
+          <g transform="translate(-26.96022605895996, -14.794034004211426)" class="label">
+            <foreignObject height="29.58806800842285" width="53.92045211791992">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel">
+                  <span class="edgeLabel">notifies</span>
+                </span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(916.2386169433594, 645.321008682251)" class="edgeTerminals">
+          <g transform="translate(0, 0)" class="inner">
+            <foreignObject style="width: 9px; height: 12px;">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel">1</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(867.4306118605099, 708.1692303044929)" class="edgeTerminals">
+          <g transform="translate(0, 0)" class="inner"></g>
+          <foreignObject style="width: 36px; height: 12px;">
+            <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+              <span class="edgeLabel">many</span>
+            </div>
+          </foreignObject>
+        </g>
+      </g>
+      <g class="nodes">
+        <g transform="translate(931.2386169433594, 109.47016906738281)" id="classid-Subject-4" class="node default">
+          <rect height="202.94034004211426" width="282.9403381347656" y="-101.47017002105713" x="-141.4701690673828" class="outer title-state"></rect>
+          <line y2="-26.294034004211426" y1="-26.294034004211426" x2="141.4701690673828" x1="-141.4701690673828" class="divider"></line>
+          <line y2="-10.294034004211426" y1="-10.294034004211426" x2="141.4701690673828" x1="-141.4701690673828" class="divider"></line>
+          <g class="label">
+            <foreignObject transform="translate( -41.171875, -93.97017002105713)" height="29.58806800842285" width="82.34375">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">«interface»</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -28.267044067382812, -60.38210201263428)" height="29.58806800842285" width="56.534088134765625" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">Subject</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -133.9701690673828, -2.794034004211426)" height="29.58806800842285" width="267.9403381347656">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+registerObserver(o: Observer) : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -133.9701690673828, 30.794034004211426)" height="29.58806800842285" width="266.0085144042969">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+removeObserver(o: Observer) : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -133.9701690673828, 64.38210201263428)" height="29.58806800842285" width="177.96875">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+notifyObservers() : void</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(286.7926025390625, 459.1747074127197)" id="classid-Observer-5" class="node default">
+          <rect height="135.76420402526855" width="557.585205078125" y="-67.88210201263428" x="-278.7926025390625" class="outer title-state"></rect>
+          <line y2="7.294034004211426" y1="7.294034004211426" x2="278.7926025390625" x1="-278.7926025390625" class="divider"></line>
+          <line y2="23.294034004211426" y1="23.294034004211426" x2="278.7926025390625" x1="-278.7926025390625" class="divider"></line>
+          <g class="label">
+            <foreignObject transform="translate( -41.171875, -60.38210201263428)" height="29.58806800842285" width="82.34375">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">«interface»</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -33.977272033691406, -26.794034004211426)" height="29.58806800842285" width="67.95454406738281" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">Observer</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -271.2926025390625, 30.794034004211426)" height="29.58806800842285" width="542.585205078125">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+update(temperature: number, humidity: number, pressure: number) : void</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(931.2386169433594, 459.1747074127197)" id="classid-WeatherData-6" class="node default">
+          <rect height="337.29261207580566" width="631.3068237304688" y="-168.64630603790283" x="-315.6534118652344" class="outer title-state"></rect>
+          <line y2="-127.05823802947998" y1="-127.05823802947998" x2="315.6534118652344" x1="-315.6534118652344" class="divider"></line>
+          <line y2="23.294034004211426" y1="23.294034004211426" x2="315.6534118652344" x1="-315.6534118652344" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -48.5511360168457, -161.14630603790283)" height="29.58806800842285" width="97.1022720336914" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">WeatherData</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -308.1534118652344, -115.55823802947998)" height="29.58806800842285" width="160.41192626953125">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-observers: Observer[]</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -308.1534118652344, -81.97017002105713)" height="29.58806800842285" width="251.8607940673828">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-temperature: number | undefined</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -308.1534118652344, -48.38210201263428)" height="29.58806800842285" width="224.2613525390625">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-humidity: number | undefined</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -308.1534118652344, -14.794034004211426)" height="29.58806800842285" width="221.71873474121094">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-pressure: number | undefined</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -308.1534118652344, 30.794034004211426)" height="29.58806800842285" width="267.9403381347656">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+registerObserver(o: Observer) : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -308.1534118652344, 64.38210201263428)" height="29.58806800842285" width="266.0085144042969">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+removeObserver(o: Observer) : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -308.1534118652344, 97.97017002105713)" height="29.58806800842285" width="177.96875">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+notifyObservers() : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -308.1534118652344, 131.55823802947998)" height="29.58806800842285" width="616.3068237304688">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+setMeasurements(temperature: number, humidity: number, pressure: number) : void</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(609.0156097412109, 825.6732749938965)" id="classid-CurrentConditionsDisplay-7" class="node default">
+          <rect height="236.5284080505371" width="557.585205078125" y="-118.26420402526855" x="-278.7926025390625" class="outer title-state"></rect>
+          <line y2="-76.6761360168457" y1="-76.6761360168457" x2="278.7926025390625" x1="-278.7926025390625" class="divider"></line>
+          <line y2="40.08806800842285" y1="40.08806800842285" x2="278.7926025390625" x1="-278.7926025390625" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -94.90766906738281, -110.76420402526855)" height="29.58806800842285" width="189.81533813476562" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">CurrentConditionsDisplay</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -271.2926025390625, -65.1761360168457)" height="29.58806800842285" width="251.8607940673828">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-temperature: number | undefined</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -271.2926025390625, -31.58806800842285)" height="29.58806800842285" width="224.2613525390625">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-humidity: number | undefined</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -271.2926025390625, 2)" height="29.58806800842285" width="221.71873474121094">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-pressure: number | undefined</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -271.2926025390625, 47.58806800842285)" height="29.58806800842285" width="542.585205078125">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+update(temperature: number, humidity: number, pressure: number) : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -271.2926025390625, 81.1761360168457)" height="29.58806800842285" width="115.44033813476562">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+display() : void</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

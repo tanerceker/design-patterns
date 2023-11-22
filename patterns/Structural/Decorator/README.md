@@ -6,7 +6,7 @@ Decorator kalıbı, mevcut bir nesnenin uygulamasını değiştirmeden dinamik o
 
 <p align="center">
   <img 
-  width="80%" 
+  width="60%" 
   title="Decorator Diagram"
   src="images/decorator-diagram.svg" />
 </p>
@@ -119,7 +119,7 @@ Decorator kalıbının yaygın kullanım alanlarından biri, bir web sunucusu is
 
 <p align="center">
   <img 
-  width="80%" 
+  width="70%" 
   title="Decorator Example"
   src="images/decorator-example.svg" />
 </p>

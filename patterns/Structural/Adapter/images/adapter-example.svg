@@ -1,0 +1,390 @@
+<svg aria-roledescription="classDiagram" role="graphics-document document" viewBox="0 0 778.82666015625 337.52838134765625" style="max-width: 778.82666015625px;" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-svg-4022403">
+  <style>
+    #mermaid-svg-4022403 {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-4022403 .error-icon {
+      fill: #552222;
+    }
+
+    #mermaid-svg-4022403 .error-text {
+      fill: #552222;
+      stroke: #552222;
+    }
+
+    #mermaid-svg-4022403 .edge-thickness-normal {
+      stroke-width: 2px;
+    }
+
+    #mermaid-svg-4022403 .edge-thickness-thick {
+      stroke-width: 3.5px;
+    }
+
+    #mermaid-svg-4022403 .edge-pattern-solid {
+      stroke-dasharray: 0;
+    }
+
+    #mermaid-svg-4022403 .edge-pattern-dashed {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-4022403 .edge-pattern-dotted {
+      stroke-dasharray: 2;
+    }
+
+    #mermaid-svg-4022403 .marker {
+      fill: #666;
+      stroke: #666;
+    }
+
+    #mermaid-svg-4022403 .marker.cross {
+      stroke: #666;
+    }
+
+    #mermaid-svg-4022403 svg {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+    }
+
+    #mermaid-svg-4022403 g.classGroup text {
+      fill: #999;
+      fill: #111111;
+      stroke: none;
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-4022403 g.classGroup text .title {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-4022403 .nodeLabel,
+    #mermaid-svg-4022403 .edgeLabel {
+      color: #111111;
+    }
+
+    #mermaid-svg-4022403 .edgeLabel .label rect {
+      fill: #eee;
+    }
+
+    #mermaid-svg-4022403 .label text {
+      fill: #111111;
+    }
+
+    #mermaid-svg-4022403 .edgeLabel .label span {
+      background: #eee;
+    }
+
+    #mermaid-svg-4022403 .classTitle {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-4022403 .node rect,
+    #mermaid-svg-4022403 .node circle,
+    #mermaid-svg-4022403 .node ellipse,
+    #mermaid-svg-4022403 .node polygon,
+    #mermaid-svg-4022403 .node path {
+      fill: #eee;
+      stroke: #999;
+      stroke-width: 1px;
+    }
+
+    #mermaid-svg-4022403 .divider {
+      stroke: #999;
+      stroke: 1;
+    }
+
+    #mermaid-svg-4022403 g.clickable {
+      cursor: pointer;
+    }
+
+    #mermaid-svg-4022403 g.classGroup rect {
+      fill: #eee;
+      stroke: #999;
+    }
+
+    #mermaid-svg-4022403 g.classGroup line {
+      stroke: #999;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-4022403 .classLabel .box {
+      stroke: none;
+      stroke-width: 0;
+      fill: #eee;
+      opacity: 0.5;
+    }
+
+    #mermaid-svg-4022403 .classLabel .label {
+      fill: #999;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-4022403 .relation {
+      stroke: #666;
+      stroke-width: 1;
+      fill: none;
+    }
+
+    #mermaid-svg-4022403 .dashed-line {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-4022403 .dotted-line {
+      stroke-dasharray: 1 2;
+    }
+
+    #mermaid-svg-4022403 #compositionStart,
+    #mermaid-svg-4022403 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-4022403 #compositionEnd,
+    #mermaid-svg-4022403 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-4022403 #dependencyStart,
+    #mermaid-svg-4022403 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-4022403 #dependencyStart,
+    #mermaid-svg-4022403 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-4022403 #extensionStart,
+    #mermaid-svg-4022403 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-4022403 #extensionEnd,
+    #mermaid-svg-4022403 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-4022403 #aggregationStart,
+    #mermaid-svg-4022403 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-4022403 #aggregationEnd,
+    #mermaid-svg-4022403 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-4022403 #lollipopStart,
+    #mermaid-svg-4022403 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-4022403 #lollipopEnd,
+    #mermaid-svg-4022403 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-4022403 .edgeTerminals {
+      font-size: 11px;
+    }
+
+    #mermaid-svg-4022403 .classTitleText {
+      text-anchor: middle;
+      font-size: 18px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-4022403 :root {
+      --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+    }
+  </style>
+  <g>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker aggregation classDiagram" id="classDiagram-aggregationStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker aggregation classDiagram" id="classDiagram-aggregationEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker extension classDiagram" id="classDiagram-extensionStart">
+        <path d="M 1,7 L18,13 V 1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker extension classDiagram" id="classDiagram-extensionEnd">
+        <path d="M 1,1 V 13 L18,7 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker composition classDiagram" id="classDiagram-compositionStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker composition classDiagram" id="classDiagram-compositionEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker dependency classDiagram" id="classDiagram-dependencyStart">
+        <path d="M 5,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker dependency classDiagram" id="classDiagram-dependencyEnd">
+        <path d="M 18,7 L9,13 L14,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker lollipop classDiagram" id="classDiagram-lollipopStart">
+        <circle r="6" cy="7" cx="6" fill="white" stroke="black"></circle>
+      </marker>
+    </defs>
+    <g class="root">
+      <g class="clusters"></g>
+      <g class="edgePaths">
+        <path marker-end="url(#classDiagram-extensionEnd)" style="fill:none" class="edge-pattern-solid relation" id="id1" d="M332.162,75.882L342.802,75.882C353.443,75.882,374.723,75.882,394.906,79.985C415.088,84.087,434.172,92.292,443.714,96.394L453.256,100.497"></path>
+        <path marker-end="url(#classDiagram-extensionEnd)" style="fill:none" class="edge-pattern-solid relation" id="id2" d="M338.753,261.646L348.295,261.646C357.837,261.646,376.92,261.646,396.004,257.544C415.088,253.441,434.172,245.237,443.714,241.134L453.256,237.032"></path>
+      </g>
+      <g class="edgeLabels">
+        <g transform="translate(396.00425720214844, 75.8821029663086)" class="edgeLabel">
+          <g transform="translate(-32.25141906738281, -14.794034004211426)" class="label">
+            <foreignObject height="29.58806800842285" width="64.50283813476562">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel">
+                  <span class="edgeLabel">-adapted</span>
+                </span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(396.00425720214844, 261.6463088989258)" class="edgeLabel">
+          <g transform="translate(-32.159088134765625, -14.794034004211426)" class="label">
+            <foreignObject height="29.58806800842285" width="64.31817626953125">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel">
+                  <span class="edgeLabel">-adapted</span>
+                </span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+      <g class="nodes">
+        <g transform="translate(173.3764190673828, 75.8821029663086)" id="classid-MySQLDatabase-92" class="node default">
+          <rect height="135.76420402526855" width="317.5710144042969" y="-67.88210201263428" x="-158.78550720214844" class="outer title-state"></rect>
+          <line y2="-26.294034004211426" y1="-26.294034004211426" x2="158.78550720214844" x1="-158.78550720214844" class="divider"></line>
+          <line y2="-10.294034004211426" y1="-10.294034004211426" x2="158.78550720214844" x1="-158.78550720214844" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -58.21022415161133, -60.38210201263428)" height="29.58806800842285" width="116.42044830322266" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">MySQLDatabase</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -151.28550720214844, -2.794034004211426)" height="29.58806800842285" width="254.8721466064453">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+connectToMySQL(uri: string) : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -151.28550720214844, 30.794034004211426)" height="29.58806800842285" width="302.5710144042969">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+executeMySQLQuery(query: string) : void</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(612.0411834716797, 168.7642059326172)" id="classid-DatabaseAdapter-93" class="node default">
+          <rect height="169.3522720336914" width="317.5710144042969" y="-84.6761360168457" x="-158.78550720214844" class="outer title-state"></rect>
+          <line y2="-43.08806800842285" y1="-43.08806800842285" x2="158.78550720214844" x1="-158.78550720214844" class="divider"></line>
+          <line y2="6.5" y1="6.5" x2="158.78550720214844" x1="-158.78550720214844" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -63.615055084228516, -77.1761360168457)" height="29.58806800842285" width="127.23011016845703" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">DatabaseAdapter</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -151.28550720214844, -31.58806800842285)" height="29.58806800842285" width="225.8238525390625">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-database: PostgreSQLDatabase</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -151.28550720214844, 14)" height="29.58806800842285" width="254.8721466064453">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+connectToMySQL(uri: string) : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -151.28550720214844, 47.58806800842285)" height="29.58806800842285" width="302.5710144042969">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+executeMySQLQuery(query: string) : void</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(173.3764190673828, 261.6463088989258)" id="classid-PostgreSQLDatabase-94" class="node default">
+          <rect height="135.76420402526855" width="330.7528381347656" y="-67.88210201263428" x="-165.3764190673828" class="outer title-state"></rect>
+          <line y2="-26.294034004211426" y1="-26.294034004211426" x2="165.3764190673828" x1="-165.3764190673828" class="divider"></line>
+          <line y2="-10.294034004211426" y1="-10.294034004211426" x2="165.3764190673828" x1="-165.3764190673828" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -75.4758529663086, -60.38210201263428)" height="29.58806800842285" width="150.9517059326172" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">PostgreSQLDatabase</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -157.8764190673828, -2.794034004211426)" height="29.58806800842285" width="268.053955078125">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+connectToPostgres(uri: string) : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -157.8764190673828, 30.794034004211426)" height="29.58806800842285" width="315.7528381347656">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+executePostgresQuery(query: string) : void</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -332,7 +332,7 @@ Iterator kalıbı, temel veri yapısını (data structure) açığa çıkarmadan
 
 <p align="center">
   <img 
-  width="60%" 
+  width="50%" 
   title="Iterator Diagram 4"
   src="images/iterator-diagram-4.svg" />
 </p>
@@ -348,6 +348,8 @@ Iterator kalıbı, farklı koleksiyon türlerinde gezinmek için ortak bir aray�
 İstemciler daha sonra, gerçek türüne bakılmaksızın herhangi bir koleksiyonda gezinmek için bu arayüzü kullanabilir. Koleksiyonların iç yapısı hakkında bilgi sahibi olmaları gerekmez ve farklı koleksiyon türlerinde gezinmek için aynı kodu yeniden kullanabilirler. Bu da daha sürdürülebilir ve esnek bir kod sağlar.
 
 Gerçek dünyadan bir örnek, kullanıcı verilerinin farklı veri yapılarında saklanabildiği bir sosyal ağ hizmeti olabilir: aktif kullanıcılar için bir dizi, kullanıcı hiyerarşileri için bir ağaç (kurumsal ağlar söz konusu olduğunda) ve belirli bir gruptaki kullanıcılar için bağlı bir liste. Uygulamanın, gruplandırmalarına bakılmaksızın tüm kullanıcılara bir mesaj yayınlamak gibi işlemler gerçekleştirmesi gerekiyorsa, bir iterator kalıbı tüm bu koleksiyonlar arasında geçiş yapmak için tek tip bir yol sağlayabilir.
+
+<br/>
 
 Iterator kalıbının her zaman en iyi çözüm olmadığını unutmayın. Yalnızca basit koleksiyonlarla çalışıyorsanız veya farklı geçiş algoritmaları arasında geçiş yapmanız hiç gerekmiyorsa gereksiz karmaşıklık ekleyebilir. Tüm tasarım kalıpları gibi bu kalıbı da mantıklı bir şekilde ve en uygun olduğu yerde kullanmalısınız.
 

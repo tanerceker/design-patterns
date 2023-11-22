@@ -1,0 +1,530 @@
+<svg aria-roledescription="classDiagram" role="graphics-document document" viewBox="0 0 812.4630126953125 926.3493041992188" style="max-width: 812.4630126953125px;" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-svg-1578965">
+  <style>
+    #mermaid-svg-1578965 {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-1578965 .error-icon {
+      fill: #552222;
+    }
+
+    #mermaid-svg-1578965 .error-text {
+      fill: #552222;
+      stroke: #552222;
+    }
+
+    #mermaid-svg-1578965 .edge-thickness-normal {
+      stroke-width: 2px;
+    }
+
+    #mermaid-svg-1578965 .edge-thickness-thick {
+      stroke-width: 3.5px;
+    }
+
+    #mermaid-svg-1578965 .edge-pattern-solid {
+      stroke-dasharray: 0;
+    }
+
+    #mermaid-svg-1578965 .edge-pattern-dashed {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-1578965 .edge-pattern-dotted {
+      stroke-dasharray: 2;
+    }
+
+    #mermaid-svg-1578965 .marker {
+      fill: #666;
+      stroke: #666;
+    }
+
+    #mermaid-svg-1578965 .marker.cross {
+      stroke: #666;
+    }
+
+    #mermaid-svg-1578965 svg {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+    }
+
+    #mermaid-svg-1578965 g.classGroup text {
+      fill: #999;
+      fill: #111111;
+      stroke: none;
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-1578965 g.classGroup text .title {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-1578965 .nodeLabel,
+    #mermaid-svg-1578965 .edgeLabel {
+      color: #111111;
+    }
+
+    #mermaid-svg-1578965 .edgeLabel .label rect {
+      fill: #eee;
+    }
+
+    #mermaid-svg-1578965 .label text {
+      fill: #111111;
+    }
+
+    #mermaid-svg-1578965 .edgeLabel .label span {
+      background: #eee;
+    }
+
+    #mermaid-svg-1578965 .classTitle {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-1578965 .node rect,
+    #mermaid-svg-1578965 .node circle,
+    #mermaid-svg-1578965 .node ellipse,
+    #mermaid-svg-1578965 .node polygon,
+    #mermaid-svg-1578965 .node path {
+      fill: #eee;
+      stroke: #999;
+      stroke-width: 1px;
+    }
+
+    #mermaid-svg-1578965 .divider {
+      stroke: #999;
+      stroke: 1;
+    }
+
+    #mermaid-svg-1578965 g.clickable {
+      cursor: pointer;
+    }
+
+    #mermaid-svg-1578965 g.classGroup rect {
+      fill: #eee;
+      stroke: #999;
+    }
+
+    #mermaid-svg-1578965 g.classGroup line {
+      stroke: #999;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-1578965 .classLabel .box {
+      stroke: none;
+      stroke-width: 0;
+      fill: #eee;
+      opacity: 0.5;
+    }
+
+    #mermaid-svg-1578965 .classLabel .label {
+      fill: #999;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-1578965 .relation {
+      stroke: #666;
+      stroke-width: 1;
+      fill: none;
+    }
+
+    #mermaid-svg-1578965 .dashed-line {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-1578965 .dotted-line {
+      stroke-dasharray: 1 2;
+    }
+
+    #mermaid-svg-1578965 #compositionStart,
+    #mermaid-svg-1578965 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-1578965 #compositionEnd,
+    #mermaid-svg-1578965 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-1578965 #dependencyStart,
+    #mermaid-svg-1578965 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-1578965 #dependencyStart,
+    #mermaid-svg-1578965 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-1578965 #extensionStart,
+    #mermaid-svg-1578965 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-1578965 #extensionEnd,
+    #mermaid-svg-1578965 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-1578965 #aggregationStart,
+    #mermaid-svg-1578965 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-1578965 #aggregationEnd,
+    #mermaid-svg-1578965 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-1578965 #lollipopStart,
+    #mermaid-svg-1578965 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-1578965 #lollipopEnd,
+    #mermaid-svg-1578965 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-1578965 .edgeTerminals {
+      font-size: 11px;
+    }
+
+    #mermaid-svg-1578965 .classTitleText {
+      text-anchor: middle;
+      font-size: 18px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-1578965 :root {
+      --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+    }
+  </style>
+  <g>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker aggregation classDiagram" id="classDiagram-aggregationStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker aggregation classDiagram" id="classDiagram-aggregationEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker extension classDiagram" id="classDiagram-extensionStart">
+        <path d="M 1,7 L18,13 V 1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker extension classDiagram" id="classDiagram-extensionEnd">
+        <path d="M 1,1 V 13 L18,7 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker composition classDiagram" id="classDiagram-compositionStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker composition classDiagram" id="classDiagram-compositionEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker dependency classDiagram" id="classDiagram-dependencyStart">
+        <path d="M 5,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker dependency classDiagram" id="classDiagram-dependencyEnd">
+        <path d="M 18,7 L9,13 L14,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker lollipop classDiagram" id="classDiagram-lollipopStart">
+        <circle r="6" cy="7" cx="6" fill="white" stroke="black"></circle>
+      </marker>
+    </defs>
+    <g class="root">
+      <g class="clusters"></g>
+      <g class="edgePaths">
+        <path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-dashed relation" id="id1" d="M229.719,158.445L207.076,171.361C184.432,184.277,139.146,210.109,116.503,227.191C93.859,244.274,93.859,252.607,93.859,256.774L93.859,260.94"></path>
+        <path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-dashed relation" id="id2" d="M315.578,210.94L315.578,215.107C315.578,219.274,315.578,227.607,315.578,235.94C315.578,244.274,315.578,252.607,315.578,256.774L315.578,260.94"></path>
+        <path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-dashed relation" id="id3" d="M401.438,144.232L439.19,159.517C476.942,174.801,552.446,205.371,590.198,227.621C627.95,249.872,627.95,263.803,627.95,270.769L627.95,277.734"></path>
+        <path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-dashed relation" id="id4" d="M627.95,480.675L627.95,487.64C627.95,494.606,627.95,508.537,627.95,519.67C627.95,530.802,627.95,539.135,627.95,543.302L627.95,547.469"></path>
+      </g>
+      <g class="edgeLabels">
+        <g class="edgeLabel">
+          <g transform="translate(0, 0)" class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel"></span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g class="edgeLabel">
+          <g transform="translate(0, 0)" class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel"></span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g class="edgeLabel">
+          <g transform="translate(0, 0)" class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel"></span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g class="edgeLabel">
+          <g transform="translate(0, 0)" class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel"></span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+      <g class="nodes">
+        <g transform="translate(315.578125, 109.47016906738281)" id="classid-Employee-18" class="node default">
+          <rect height="202.94034004211426" width="171.71875" y="-101.47017002105713" x="-85.859375" class="outer title-state"></rect>
+          <line y2="-26.294034004211426" y1="-26.294034004211426" x2="85.859375" x1="-85.859375" class="divider"></line>
+          <line y2="-10.294034004211426" y1="-10.294034004211426" x2="85.859375" x1="-85.859375" class="divider"></line>
+          <g class="label">
+            <foreignObject transform="translate( -41.171875, -93.97017002105713)" height="29.58806800842285" width="82.34375">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">«interface»</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -36.4417610168457, -60.38210201263428)" height="29.58806800842285" width="72.8835220336914" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">Employee</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.359375, -2.794034004211426)" height="29.58806800842285" width="139.75851440429688">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+getName() : string</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.359375, 30.794034004211426)" height="29.58806800842285" width="156.71875">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+getSalary() : number</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.359375, 64.38210201263428)" height="29.58806800842285" width="129.8295440673828">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+getRole() : string</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(93.859375, 379.2045364379883)" id="classid-Developer-19" class="node default">
+          <rect height="236.5284080505371" width="171.71875" y="-118.26420402526855" x="-85.859375" class="outer title-state"></rect>
+          <line y2="-76.6761360168457" y1="-76.6761360168457" x2="85.859375" x1="-85.859375" class="divider"></line>
+          <line y2="6.5" y1="6.5" x2="85.859375" x1="-85.859375" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -38.117897033691406, -110.76420402526855)" height="29.58806800842285" width="76.23579406738281" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">Developer</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.359375, -65.1761360168457)" height="29.58806800842285" width="96.10794067382812">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-name: string</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.359375, -31.58806800842285)" height="29.58806800842285" width="113.32386016845703">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-salary: number</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.359375, 14)" height="29.58806800842285" width="139.75851440429688">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+getName() : string</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.359375, 47.58806800842285)" height="29.58806800842285" width="156.71875">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+getSalary() : number</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.359375, 81.1761360168457)" height="29.58806800842285" width="129.8295440673828">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+getRole() : string</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(315.578125, 379.2045364379883)" id="classid-Designer-20" class="node default">
+          <rect height="236.5284080505371" width="171.71875" y="-118.26420402526855" x="-85.859375" class="outer title-state"></rect>
+          <line y2="-76.6761360168457" y1="-76.6761360168457" x2="85.859375" x1="-85.859375" class="divider"></line>
+          <line y2="6.5" y1="6.5" x2="85.859375" x1="-85.859375" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -32.32954406738281, -110.76420402526855)" height="29.58806800842285" width="64.65908813476562" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">Designer</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.359375, -65.1761360168457)" height="29.58806800842285" width="96.10794067382812">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-name: string</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.359375, -31.58806800842285)" height="29.58806800842285" width="113.32386016845703">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-salary: number</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.359375, 14)" height="29.58806800842285" width="139.75851440429688">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+getName() : string</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.359375, 47.58806800842285)" height="29.58806800842285" width="156.71875">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+getSalary() : number</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -78.359375, 81.1761360168457)" height="29.58806800842285" width="129.8295440673828">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+getRole() : string</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(627.9502716064453, 379.2045364379883)" id="classid-CompositeEmployee-21" class="node default">
+          <rect height="202.94034004211426" width="353.0255432128906" y="-101.47017002105713" x="-176.5127716064453" class="outer title-state"></rect>
+          <line y2="-26.294034004211426" y1="-26.294034004211426" x2="176.5127716064453" x1="-176.5127716064453" class="divider"></line>
+          <line y2="-10.294034004211426" y1="-10.294034004211426" x2="176.5127716064453" x1="-176.5127716064453" class="divider"></line>
+          <g class="label">
+            <foreignObject transform="translate( -41.171875, -93.97017002105713)" height="29.58806800842285" width="82.34375">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">«interface»</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -75.52556610107422, -60.38210201263428)" height="29.58806800842285" width="151.05113220214844" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">CompositeEmployee</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -169.0127716064453, -2.794034004211426)" height="29.58806800842285" width="310.8948669433594">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+addEmployee(employee: Employee) : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -169.0127716064453, 30.794034004211426)" height="29.58806800842285" width="338.0255432128906">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+removeEmployee(employee: Employee) : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -169.0127716064453, 64.38210201263428)" height="29.58806800842285" width="215.8238525390625">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+getEmployees() : Employee[]</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(627.9502716064453, 732.9090728759766)" id="classid-Manager-22" class="node default">
+          <rect height="370.8806800842285" width="353.0255432128906" y="-185.44034004211426" x="-176.5127716064453" class="outer title-state"></rect>
+          <line y2="-143.8522720336914" y1="-143.8522720336914" x2="176.5127716064453" x1="-176.5127716064453" class="divider"></line>
+          <line y2="-27.08806800842285" y1="-27.08806800842285" x2="176.5127716064453" x1="-176.5127716064453" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -31.242897033691406, -177.94034004211426)" height="29.58806800842285" width="62.48579406738281" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">Manager</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -169.0127716064453, -132.3522720336914)" height="29.58806800842285" width="96.10794067382812">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-name: string</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -169.0127716064453, -98.76420402526855)" height="29.58806800842285" width="113.32386016845703">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-salary: number</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -169.0127716064453, -65.1761360168457)" height="29.58806800842285" width="173.79258728027344">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-employees: Employee[]</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -169.0127716064453, -19.58806800842285)" height="29.58806800842285" width="139.75851440429688">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+getName() : string</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -169.0127716064453, 14)" height="29.58806800842285" width="156.71875">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+getSalary() : number</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -169.0127716064453, 47.58806800842285)" height="29.58806800842285" width="129.8295440673828">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+getRole() : string</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -169.0127716064453, 81.1761360168457)" height="29.58806800842285" width="310.8948669433594">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+addEmployee(employee: Employee) : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -169.0127716064453, 114.76420402526855)" height="29.58806800842285" width="338.0255432128906">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+removeEmployee(employee: Employee) : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -169.0127716064453, 148.3522720336914)" height="29.58806800842285" width="215.8238525390625">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+getEmployees() : Employee[]</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

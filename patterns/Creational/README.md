@@ -51,7 +51,7 @@ Bu kalıp, bir sınıfın örneklenmesini kısıtlar ve java sanal makinesinde s
 
 <br/>
 
-<p align="center">
+<p align="left">
   <img 
   width="60%" 
   title="Factory Method"
@@ -68,7 +68,7 @@ Bu kalıp, örnekleme mantığını (instantiation logic) alt sınıflara (child
 
 <br/>
 
-<p align="center">
+<p align="left">
   <img 
   width="60%" 
   title="Abstract Factory"
@@ -85,7 +85,7 @@ Bu kalıp, somut sınıflarını (concrete classes) belirtmeden ilgili veya bağ
 
 <br/>
 
-<p align="center">
+<p align="left">
   <img 
   width="60%" 
   title="Builder"
@@ -102,7 +102,7 @@ Bu kalıp, basit nesneler ve adım adım bir yaklaşım kullanarak karmaşık bi
 
 <br/>
 
-<p align="center">
+<p align="left">
   <img 
   width="60%" 
   title="Prototype"

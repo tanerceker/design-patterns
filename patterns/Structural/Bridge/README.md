@@ -1,3 +1,5 @@
+<br/>
+
 # Bridge Kalıbı (Pattern)
 
 Bridge kalıbı, büyük bir sınıfı veya birbiriyle yakından ilişkili sınıflar kümesini birbirinden bağımsız olarak geliştirilebilen iki ayrı hiyerarşiye (soyutlama (abstraction) ve uygulama (implementation)) bölmenizi sağlayan yapısal bir tasarım kalıbıdır (structural design pattern).
@@ -114,7 +116,8 @@ class VideoPlayer extends MediaPlayerAbstraction {
 
 ```tsx
 // İstemci kodu yalnızca Soyutlama (Abstraction) sınıfına bağlı olmalıdır.
-// Bu şekilde istemci kodu herhangi bir soyutlama-uygulama (abstraction-implementation) kombinasyonunu destekleyebilir.
+// Bu şekilde istemci kodu herhangi bir soyutlama-uygulama (abstraction-implementation)
+// kombinasyonunu destekleyebilir.
 let player = new AudioPlayer(new WindowsMediaPlayer());
 player.playFile(); // 'Playing audio on Windows media player.'
 

@@ -32,7 +32,16 @@ Nesne yönelimli programlamada (OOP) yaratımsal tasarım kalıpları, nesne yar
 
 ### **Singleton**
 
-![singleton.svg](../../images/singleton.svg)
+<br/>
+
+<p align="center">
+  <img 
+  width="70%" 
+  title="Singleton"
+  src="../../images/singleton.svg" />
+</p>
+
+<br/>
 
 Bu kalıp, bir sınıfın örneklenmesini kısıtlar ve java sanal makinesinde sınıfın yalnızca bir örneğinin (only one instance) bulunmasını sağlar. Nesneye global bir erişim noktası sağlar. Bu, sistem genelinde eylemleri koordine etmek için tam olarak bir nesneye ihtiyaç duyulduğunda kullanışlıdır.
 
@@ -40,7 +49,16 @@ Bu kalıp, bir sınıfın örneklenmesini kısıtlar ve java sanal makinesinde s
 
 ### **Factory Method**
 
-![factory-method.svg](../../images/factory-method.svg)
+<br/>
+
+<p align="center">
+  <img 
+  width="70%" 
+  title="Factory Method"
+  src="../../images/factory-method.svg" />
+</p>
+
+<br/>
 
 Bu kalıp, örnekleme mantığını (instantiation logic) alt sınıflara (child classes) devretmek için bir yol sağlar. Factory Method kalıbı, nesne oluşturma durumunu Factory Method uygulayan alt sınıflara (subclasses) devreder.
 
@@ -48,7 +66,16 @@ Bu kalıp, örnekleme mantığını (instantiation logic) alt sınıflara (child
 
 ### **Abstract Factory**
 
-![abstract-factory.svg](../../images/abstract-factory.svg)
+<br/>
+
+<p align="center">
+  <img 
+  width="70%" 
+  title="Abstract Factory"
+  src="../../images/abstract-factory.svg" />
+</p>
+
+<br/>
 
 Bu kalıp, somut sınıflarını (concrete classes) belirtmeden ilgili veya bağımlı nesne aileleri oluşturmak için bir arayüz (interface) sağlar. Somut sınıflarını (Concrete classes) belirtmeden ortak bir temaya sahip bir grup fabrikayı (factories) kapsüller (encapsulate).
 
@@ -56,7 +83,16 @@ Bu kalıp, somut sınıflarını (concrete classes) belirtmeden ilgili veya bağ
 
 ### **Builder**
 
-![builder.svg](../../images/builder.svg)
+<br/>
+
+<p align="center">
+  <img 
+  width="70%" 
+  title="Builder"
+  src="../../images/builder.svg" />
+</p>
+
+<br/>
 
 Bu kalıp, basit nesneler ve adım adım bir yaklaşım kullanarak karmaşık bir nesne oluşturur. Bu tür bir tasarım kalıbı, bir nesne oluşturmanın en iyi yollarından birini sağladığı için yaratımsal kalıp altında yer alır. Karmaşık bir nesnenin inşası ve temsili için net bir ayrım ve benzersiz bir katman sağlar.
 
@@ -64,7 +100,16 @@ Bu kalıp, basit nesneler ve adım adım bir yaklaşım kullanarak karmaşık bi
 
 ### **Prototype**
 
-![prototype.svg](../../images/prototype.svg)
+<br/>
+
+<p align="center">
+  <img 
+  width="70%" 
+  title="Prototype"
+  src="../../images/prototype.svg" />
+</p>
+
+<br/>
 
 Bu kalıp, oluşturulacak nesnelerin türü, yeni nesneler üretmek için klonlanan prototip bir örnek tarafından belirlendiğinde kullanılır. Bu kalıp, mevcut nesnenin bir klonunu oluşturmayı söyleyen bir prototip arayüzünün uygulanmasını içerir.
 

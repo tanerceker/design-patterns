@@ -135,6 +135,112 @@ Bu kalıp, özellikle iş mantığınızın altta yatan sistemin nüanslarından
 
 <br/>
 
+## Bridge Kalıbı Gerçek Dünya Örneği
+
+<br/>
+
+<p align="center">
+  <img 
+  width="80%" 
+  title="Bridge Example"
+  src="images/bridge-example.svg" />
+</p>
+
+<br/>
+
+Farklı türde veritabanlarıyla (PostgreSQL, MongoDB, vb.) çalışmamız gereken bir sunucu tarafı uygulaması düşünelim. Bu veritabanlarının bağlanmak, sorguları yürütmek vb. için farklı yöntemleri vardır. Bridge kalıbı burada, her bir veritabanı türünün karmaşıklığını ve özelliklerini gizlerken istemcinin veritabanlarıyla etkileşime girmesi için tek tip bir arayüz oluşturmak için kullanılabilir.
+
+<br/>
+
+**1. Uygulayıcı (Implementor) arayüzü ve somut uygulayıcılar (concrete implementors):**
+
+```tsx
+interface Database {
+  connect(): void;
+
+  query(sql: string): any;
+
+  close(): void;
+}
+
+class PostgreSQLDatabase implements Database {
+  connect(): void {
+    console.log("Connecting to PostgreSQL database.");
+  }
+
+  query(sql: string): any {
+    console.log(`Executing query '${sql}' on PostgreSQL database.`);
+    // Implementation of query execution
+  }
+
+  close(): void {
+    console.log("Closing connection to PostgreSQL database.");
+  }
+}
+
+class MongoDBDatabase implements Database {
+  connect(): void {
+    console.log("Connecting to MongoDB database.");
+  }
+
+  query(sql: string): any {
+    console.log(`Executing query '${sql}' on MongoDB database.`);
+    // Implementation of query execution
+  }
+
+  close(): void {
+    console.log("Closing connection to MongoDB database.");
+  }
+}
+```
+
+<br/>
+
+**2. Soyutlama ve işlenmiş soyutlamalar (Abstraction and refined abstractions):**
+
+```tsx
+abstract class DatabaseService {
+  protected database: Database;
+
+  constructor(database: Database) {
+    this.database = database;
+  }
+
+  abstract fetchData(query: string): any;
+}
+
+class ClientDatabaseService extends DatabaseService {
+  fetchData(query: string): any {
+    this.database.connect();
+    const result = this.database.query(query);
+    this.database.close();
+    return result;
+  }
+}
+```
+
+<br/>
+
+**3. İstemci kodu (Client code):**
+
+```tsx
+let databaseService = new ClientDatabaseService(new PostgreSQLDatabase());
+databaseService.fetchData("SELECT * FROM users;"); // use PostgreSQL database
+
+databaseService = new ClientDatabaseService(new MongoDBDatabase());
+databaseService.fetchData("db.users.find({})"); // use MongoDB database
+```
+
+<br/>
+
+Bu örnekte, üst düzey DatabaseService sınıfını çeşitli Veritabanı uygulamalarının özelliklerinden ayıran bir "bridge (köprü)" oluşturduk. Bunu yaparak, DatabaseService sınıfını veya istemci kodunu değiştirmeden uygulamaya yeni bir veritabanı türü ekleyebilirsiniz. Ayrıca, çalışma zamanında istemci hangi veritabanının kullanılacağına karar verebilir.
+
+<br/>
+
+---
+
+<br/>
+
 ## Bridge Kalıbı Ne Zaman Kullanılır?
 
 Bir soyutlamayı uygulamasından ayırmak isteyebileceğiniz çeşitli senaryolar vardır:

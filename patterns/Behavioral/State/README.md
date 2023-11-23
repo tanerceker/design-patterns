@@ -189,13 +189,21 @@ State kalıbı, kodunuzdaki aşağıdaki durumlar veya "kokular" için potansiye
 <br/>
 
 1. **Nesne durumuna dayalı büyük koşullu ifadeler veya switch-case ifadeleri (Large conditionals or switch-case statements based on object state):** İç durumuna göre farklı davranan bir nesneniz varsa ve bunu işlemek için çok sayıda if-else veya switch-case deyimi kullanıyorsanız, bu state kalıbının yararlı olabileceğine dair bir sinyal olabilir.
-   <br/>
+
+<br/>
+
 2. **Durum geçişleri karmaşık veya hataya meyillidir (State transitions are complex or error-prone):** Durumlar arasında geçiş mantığı karmaşık ve yönetilmesi zor hale geldiğinde, state kalıbını kullanmak yardımcı olabilir. Her state sınıfı bir sonraki state'in ne olması gerektiğine karar vermekten sorumlu olacak ve hata riskini azaltacaktır.
-   <br/>
+
+<br/>
+
 3. **Duruma özgü davranış kodunuzun tamamına yayılır (State-specific behavior is spread out throughout your code):** Yöntemlerin duruma özgü davranışlar içerdiğini ve bu davranışların kodunuzun tamamına yayıldığını fark ederseniz, durum modelini düşünmenin zamanı gelmiş olabilir. State kalıbı, duruma özgü davranışı ayrı sınıflarda kapsüller. Bu, hepsi tek bir yerde bulunduğu için belirli bir durumla ilgili davranışı değiştirmeyi kolaylaştırır.
-   <br/>
+
+<br/>
+
 4. **Durumlar ve davranışlar arasında yüksek bağlantı (High coupling between states and behaviors):** Bir nesnenin durumları ve davranışları arasında güçlü bir bağlantı bulursanız, state kalıbı düşünülebilir. State kalıbı ile, state ve ilgili davranışlar ayrı sınıflarda kapsüllendiği için bağlantı daha yönetilebilir hale gelir.
-   <br/>
+
+<br/>
+
 5. **Kodun yeni durumlarla genişletilmesi zordur (Code is hard to extend with new states):** Nesnenize yeni bir durum eklemek mevcut kodu değiştirmeyi ve yeni if-else veya switch-case cümleleri eklemeyi gerektiriyorsa State kalıbı faydalı olabilir. State kalıbı kullanılırken, yeni bir durum eklemek, mevcut koda dokunmadan ve Açık/Kapalı İlkesine bağlı kalarak yeni bir durum sınıfı oluşturarak yapılabilir.
 
 <br/>

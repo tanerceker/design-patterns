@@ -156,7 +156,7 @@ Tasarım kalıpları üç ana kategoride sınıflandırılabilirler:
 
 <br/>
 
-### [2. Yapısal (Structural)](https://github.com/tanerceker/design-patterns/tree/main/patterns/Structural)
+### [2. Yapısal (Structural)](https://github.com/tanerceker/design-patterns/tree/main/patterns/Structural)
 
 <br/>
 

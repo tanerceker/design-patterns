@@ -31,43 +31,43 @@ Yapısal tasarım kalıpları, nesne bileşimi (composition) ve sınıfların ve
 
 <br/>
 
-### Adapter
+### [Adapter](https://github.com/tanerceker/design-patterns/tree/main/patterns/Structural/Adapter)
 
 Uyumsuz arayüzlere sahip sınıfların birlikte çalışmasına izin verir. Kendisini bir nesnenin etrafına sarar ve bu nesneyle etkileşim kurmak için standart bir arayüz sunar.
 
 <br/>
 
-### Bridge
+### [Bridge](https://github.com/tanerceker/design-patterns/tree/main/patterns/Structural/Bridge)
 
 Bir soyutlamayı uygulamasından ayırır, böylece ikisi bağımsız olarak değişebilir. İleriye dönük uyumluluğu zorlayarak gevşek bağlantıyı teşvik eder.
 
 <br/>
 
-### Composite
+### [Composite](https://github.com/tanerceker/design-patterns/tree/main/patterns/Structural/Composite)
 
 Karmaşık sistemlerin kullanımını basitleştirmek için kullanılır. Aynı nesne türünün tek bir örneğiyle aynı şekilde ele alınabilecek bir grup nesneyi tanımlar.
 
 <br/>
 
-### Decorator
+### [Decorator](https://github.com/tanerceker/design-patterns/tree/main/patterns/Structural/Decorator)
 
 Mevcut bir nesneye, yapısını değiştirmeden yeni işlevler eklemek için kullanılır. Somut sınıfları (Concrete classes) sarmak için kullanılan bir dizi dekoratör sınıfı (decorator classes) içerdiğinden yapısal bir kalıptır.
 
 <br/>
 
-### Facade
+### [Facade](https://github.com/tanerceker/design-patterns/tree/main/patterns/Structural/Facade)
 
 Karmaşık bir alt sisteme basitleştirilmiş bir arayüz sağlar. İstemci kodunun çeşitli alt sistem arayüzleriyle etkileşime girmesini sağlamak yerine, tek bir birleşik arayüz sağlar.
 
 <br/>
 
-### Flyweight
+### [Flyweight](https://github.com/tanerceker/design-patterns/tree/main/patterns/Structural/Flyweight)
 
 İlgili nesnelerle mümkün olduğunca fazla veri paylaşarak bellek kullanımını en aza indirir. Basit bir tekrarlı gösterimin kabul edilemez miktarda bellek kullanacağı durumlarda nesneleri çok sayıda kullanmanın bir yoludur.
 
 <br/>
 
-### Proxy
+### [Proxy](https://github.com/tanerceker/design-patterns/tree/main/patterns/Structural/Proxy)
 
 Başka bir nesneye erişimi kontrol etmek için bir vekil veya yer tutucu sağlar. Bu kalıp, bir nesnenin erişimine bir tür kontrol dahil etmek istediğimizde kullanılır.
 

@@ -35,6 +35,8 @@ Bu kalıp genellikle bir dizi nesnenin bir isteği yerine getirebilmesi gerekti�
 
 ## Chain of Responsibility Kalıbının Uygulanması (Implementation)
 
+<br/>
+
 Typescript'te bir Chain of Responsibility'yi nasıl uygulayabileceğinize dair adım adım bir örnek:
 
 ```tsx

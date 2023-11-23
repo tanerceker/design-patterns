@@ -150,15 +150,9 @@ Bunun basitleştirilmiş bir örnek olduğunu ve gerçek dünyadaki bir e-ticare
 
 Tasarım kalıpları üç ana kategoride sınıflandırılabilirler:
 
-<br/>
-
 ### [1. Yaratımsal (Creational)](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational)
 
-<br/>
-
 ### [2. Yapısal (Structural)](https://github.com/tanerceker/design-patterns/tree/main/patterns/Structural)
-
-<br/>
 
 ### [3. Davranışsal (Behavioral)](https://github.com/tanerceker/design-patterns/tree/main/patterns/Behavioral)
 

@@ -234,28 +234,28 @@ Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Obse
 
 ### Yaratımsal (Creational)
 
-[Singleton](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational/Singleton)
+#### [Singleton](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational/Singleton)
 
-[Factory Method](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational/Factory%20Method)
+#### [Factory Method](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational/Factory%20Method)
 
-[Builder](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational/Builder)
+#### [Builder](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational/Builder)
 
 <br/>
 
 ### Yapısal (Structural)
 
-[Facade](https://github.com/tanerceker/design-patterns/tree/main/patterns/Structural/Facade)
+#### [Facade](https://github.com/tanerceker/design-patterns/tree/main/patterns/Structural/Facade)
 
-[Adapter](https://github.com/tanerceker/design-patterns/tree/main/patterns/Structural/Adapter)
+#### [Adapter](https://github.com/tanerceker/design-patterns/tree/main/patterns/Structural/Adapter)
 
-[Decorator](https://github.com/tanerceker/design-patterns/tree/main/patterns/Structural/Decorator)
+#### [Decorator](https://github.com/tanerceker/design-patterns/tree/main/patterns/Structural/Decorator)
 
 <br/>
 
 ### Davranışsal (Behavioral)
 
-[Strategy](https://github.com/tanerceker/design-patterns/tree/main/patterns/Behavioral/Strategy)
+#### [Strategy](https://github.com/tanerceker/design-patterns/tree/main/patterns/Behavioral/Strategy)
 
-[Observer](https://github.com/tanerceker/design-patterns/tree/main/patterns/Behavioral/Observer)
+#### [Observer](https://github.com/tanerceker/design-patterns/tree/main/patterns/Behavioral/Observer)
 
 <br>

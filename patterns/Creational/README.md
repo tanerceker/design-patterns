@@ -31,31 +31,31 @@ Nesne yönelimli programlamada (OOP) yaratımsal tasarım kalıpları, nesne yar
 
 <br/>
 
-### **Singleton**
+### [🔗 Singleton](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational/Singleton)
 
 Bu kalıp, bir sınıfın örneklenmesini kısıtlar ve java sanal makinesinde sınıfın yalnızca bir örneğinin (only one instance) bulunmasını sağlar. Nesneye global bir erişim noktası sağlar. Bu, sistem genelinde eylemleri koordine etmek için tam olarak bir nesneye ihtiyaç duyulduğunda kullanışlıdır.
 
 <br/>
 
-### [Factory Method](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational/Factory%20Method)
+### [🔗 Factory Method](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational/Factory%20Method)
 
 Bu kalıp, örnekleme mantığını (instantiation logic) alt sınıflara (child classes) devretmek için bir yol sağlar. Factory Method kalıbı, nesne oluşturma durumunu Factory Method uygulayan alt sınıflara (subclasses) devreder.
 
 <br/>
 
-### [Abstract Factory](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational/Abstract%20Factory)
+### [🔗 Abstract Factory](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational/Abstract%20Factory)
 
 Bu kalıp, somut sınıflarını (concrete classes) belirtmeden ilgili veya bağımlı nesne aileleri oluşturmak için bir arayüz (interface) sağlar. Somut sınıflarını (Concrete classes) belirtmeden ortak bir temaya sahip bir grup fabrikayı (factories) kapsüller (encapsulate).
 
 <br/>
 
-### [Builder](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational/Builder)
+### [🔗 Builder](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational/Builder)
 
 Bu kalıp, basit nesneler ve adım adım bir yaklaşım kullanarak karmaşık bir nesne oluşturur. Bu tür bir tasarım kalıbı, bir nesne oluşturmanın en iyi yollarından birini sağladığı için yaratımsal kalıp altında yer alır. Karmaşık bir nesnenin inşası ve temsili için net bir ayrım ve benzersiz bir katman sağlar.
 
 <br/>
 
-### [Prototype](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational/Prototype)
+### [🔗 Prototype](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational/Prototype)
 
 Bu kalıp, oluşturulacak nesnelerin türü, yeni nesneler üretmek için klonlanan prototip bir örnek tarafından belirlendiğinde kullanılır. Bu kalıp, mevcut nesnenin bir klonunu oluşturmayı söyleyen bir prototip arayüzünün uygulanmasını içerir.
 

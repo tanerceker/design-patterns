@@ -150,13 +150,17 @@ Bunun basitleştirilmiş bir örnek olduğunu ve gerçek dünyadaki bir e-ticare
 
 Tasarım kalıpları üç ana kategoride sınıflandırılabilirler:
 
-1. **Yaratımsal (Creational)**
+<br/>
+
+1. [🔗 **Yaratımsal (Creational)**](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational)
    <br/>
 
-2. **Yapısal (Structural)**
+2. [🔗 **Yapısal (Structural)**](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational)
    <br/>
 
-3. **Davranışsal (Behavioral)**
+3. [🔗 **Davranışsal (Behavioral)**](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational)
+
+<br/>
 
 Bu kategorilerin her biri ayrı bir amaca hizmet eder ve yazılım tasarımında farklı türde sorunların çözülmesine yardımcı olur.
 
@@ -164,10 +168,11 @@ Bu kategorilerin her biri ayrı bir amaca hizmet eder ve yazılım tasarımında
 
 <br/>
 
-## Yaratımsal Tasarım Kalıpları — Creational Design Patterns
+## [🔗 Yaratımsal Tasarım Kalıpları — Creational Design Patterns](https://github.com/tanerceker/design-patterns/tree/main/patterns/Creational)
 
-Yaratımsal tasarım kalıpları nesne oluşturma sürecine odaklanır. Nesne oluşturma sürecini soyutlarlar ve sistemi nesnelerin nasıl oluşturulduğu, oluşturulduğu ve temsil edildiğinden bağımsız hale getirmeye yardımcı olurlar. Bu kalıplar, nesneleri doğrudan new operatörünü kullanarak oluşturmak yerine, oluşturma mantığını gizleyerek nesneleri oluşturmanın bir yolunu sağlar. Bu, belirli bir kullanım durumu için hangi nesnelerin oluşturulması gerektiğine karar verirken daha fazla esneklik sağlar. Bazı popüler yaratımsal tasarım kalıpları arasında;
-Singleton, Abstract Factory, Builder, Factory Method ve Prototype yer alır.
+Yaratımsal tasarım kalıpları nesne oluşturma sürecine odaklanır. Nesne oluşturma sürecini soyutlarlar ve sistemi nesnelerin nasıl oluşturulduğu, oluşturulduğu ve temsil edildiğinden bağımsız hale getirmeye yardımcı olurlar. Bu kalıplar, nesneleri doğrudan new operatörünü kullanarak oluşturmak yerine, oluşturma mantığını gizleyerek nesneleri oluşturmanın bir yolunu sağlar. Bu, belirli bir kullanım durumu için hangi nesnelerin oluşturulması gerektiğine karar verirken daha fazla esneklik sağlar. Bazı popüler yaratımsal tasarım kalıpları arasında şunlar yer alır;
+
+Singleton, Abstract Factory, Builder, Factory Method ve Prototype
 
 <br/>
 
@@ -184,11 +189,12 @@ Singleton, Abstract Factory, Builder, Factory Method ve Prototype yer alır.
 
 <br/>
 
-## Yapısal Tasarım Kalıpları — Structural Design Patterns
+## [🔗 Yapısal Tasarım Kalıpları — Structural Design Patterns](https://github.com/tanerceker/design-patterns/tree/main/patterns/Structural)
 
 Yapısal tasarım kalıpları, sınıfların ve nesnelerin bileşimi (composition) ile ilgilidir. Sınıfları ve nesneleri kullanarak büyük yapılar (large structures) oluşturmaya yardımcı olurken aynı zamanda yapıların ölçeklenebilir (scalable), verimli (efficient) ve sürdürülebilir (maintainable) olmasını sağlarlar.
-Bu kalıplar, varlıklar (entities) arasındaki ilişkileri belirleyerek ve bunları uyumlu bir yapı oluşturacak şekilde düzenleyerek tasarımı basitleştirmeye odaklanır. Yapısal tasarım kalıpları, arayüzlerin (interfaces) veya uygulamaların (implementations) bileşimini (composition) sağlayarak yazılım tasarımını kolaylaştırır. Bazı yaygın yapısal tasarım kalıpları arasında;
-Adapter, Bridge, Composite, Decorator, Facade, Flyweight ve Proxy yer alır.
+Bu kalıplar, varlıklar (entities) arasındaki ilişkileri belirleyerek ve bunları uyumlu bir yapı oluşturacak şekilde düzenleyerek tasarımı basitleştirmeye odaklanır. Yapısal tasarım kalıpları, arayüzlerin (interfaces) veya uygulamaların (implementations) bileşimini (composition) sağlayarak yazılım tasarımını kolaylaştırır. Bazı yaygın yapısal tasarım kalıpları arasında şunlar yer alır;
+
+Adapter, Bridge, Composite, Decorator, Facade, Flyweight ve Proxy
 
 <br/>
 
@@ -205,10 +211,11 @@ Adapter, Bridge, Composite, Decorator, Facade, Flyweight ve Proxy yer alır.
 
 <br/>
 
-## Davranışsal Tasarım Kalıpları — Behavioral Design Patterns
+## [🔗 Davranışsal Tasarım Kalıpları — Behavioral Design Patterns](https://github.com/tanerceker/design-patterns/tree/main/patterns/Behavioral)
 
-Davranışsal tasarım kalıpları, nesneler arasında verimli iletişim (efficient communication) ve sorumlulukların atanmasından (assignment of responsibilities) sorumludur. Nesnelerin birbirleriyle nasıl etkileşim ve iletişim kurduğunun yanı sıra kontrol akışının bir sistem içinde nasıl organize edildiğine odaklanırlar. Bu kalıplar nesneler arasındaki iletişim protokollerini tanımlar ve sistemin verimli (efficient), sürdürülebilir (maintainable) ve ölçeklenebilir (scalable) olmasını sağlamak için sorumlulukların (responsibilities) dağıtılmasına yardımcı olur. Davranışsal tasarım kalıpları, gevşek bağlantı (loose coupling) ve endişelerin ayrılmasını (separation of concerns) teşvik ederek bir yazılım sisteminin esnekliğini (flexibility) ve uyarlanabilirliğini (adaptability) artırır. Yaygın olarak kullanılan bazı davranışsal tasarım kalıpları arasında;
-Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method ve Visitor yer almaktadır.
+Davranışsal tasarım kalıpları, nesneler arasında verimli iletişim (efficient communication) ve sorumlulukların atanmasından (assignment of responsibilities) sorumludur. Nesnelerin birbirleriyle nasıl etkileşim ve iletişim kurduğunun yanı sıra kontrol akışının bir sistem içinde nasıl organize edildiğine odaklanırlar. Bu kalıplar nesneler arasındaki iletişim protokollerini tanımlar ve sistemin verimli (efficient), sürdürülebilir (maintainable) ve ölçeklenebilir (scalable) olmasını sağlamak için sorumlulukların (responsibilities) dağıtılmasına yardımcı olur. Davranışsal tasarım kalıpları, gevşek bağlantı (loose coupling) ve endişelerin ayrılmasını (separation of concerns) teşvik ederek bir yazılım sisteminin esnekliğini (flexibility) ve uyarlanabilirliğini (adaptability) artırır. Yaygın olarak kullanılan bazı davranışsal tasarım kalıpları arasında şunlar yer alır;
+
+Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method ve Visitor
 
 <br/>
 

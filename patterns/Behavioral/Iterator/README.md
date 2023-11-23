@@ -1,3 +1,5 @@
+<br/>
+
 # Iterator Kalıbı (Pattern)
 
 Iterator kalıbı, bir koleksiyondaki (collection) öğelere, altta yatan temsili açığa çıkarmadan sıralı olarak erişilmesini sağlayan bir tasarım kalıbıdır. Altta yatan detayları açığa çıkarmadan bir agrega (aggregate) nesnesinin öğelerine sırayla erişmek için bir yol sağlar.

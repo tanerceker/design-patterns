@@ -1,0 +1,386 @@
+<svg aria-roledescription="classDiagram" role="graphics-document document" viewBox="0 0 515.9005737304688 286.1164855957031" style="max-width: 515.9005737304688px;" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-svg-9922519">
+  <style>
+    #mermaid-svg-9922519 {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-9922519 .error-icon {
+      fill: #552222;
+    }
+
+    #mermaid-svg-9922519 .error-text {
+      fill: #552222;
+      stroke: #552222;
+    }
+
+    #mermaid-svg-9922519 .edge-thickness-normal {
+      stroke-width: 2px;
+    }
+
+    #mermaid-svg-9922519 .edge-thickness-thick {
+      stroke-width: 3.5px;
+    }
+
+    #mermaid-svg-9922519 .edge-pattern-solid {
+      stroke-dasharray: 0;
+    }
+
+    #mermaid-svg-9922519 .edge-pattern-dashed {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-9922519 .edge-pattern-dotted {
+      stroke-dasharray: 2;
+    }
+
+    #mermaid-svg-9922519 .marker {
+      fill: #666;
+      stroke: #666;
+    }
+
+    #mermaid-svg-9922519 .marker.cross {
+      stroke: #666;
+    }
+
+    #mermaid-svg-9922519 svg {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+    }
+
+    #mermaid-svg-9922519 g.classGroup text {
+      fill: #999;
+      fill: #111111;
+      stroke: none;
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-9922519 g.classGroup text .title {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-9922519 .nodeLabel,
+    #mermaid-svg-9922519 .edgeLabel {
+      color: #111111;
+    }
+
+    #mermaid-svg-9922519 .edgeLabel .label rect {
+      fill: #eee;
+    }
+
+    #mermaid-svg-9922519 .label text {
+      fill: #111111;
+    }
+
+    #mermaid-svg-9922519 .edgeLabel .label span {
+      background: #eee;
+    }
+
+    #mermaid-svg-9922519 .classTitle {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-9922519 .node rect,
+    #mermaid-svg-9922519 .node circle,
+    #mermaid-svg-9922519 .node ellipse,
+    #mermaid-svg-9922519 .node polygon,
+    #mermaid-svg-9922519 .node path {
+      fill: #eee;
+      stroke: #999;
+      stroke-width: 1px;
+    }
+
+    #mermaid-svg-9922519 .divider {
+      stroke: #999;
+      stroke: 1;
+    }
+
+    #mermaid-svg-9922519 g.clickable {
+      cursor: pointer;
+    }
+
+    #mermaid-svg-9922519 g.classGroup rect {
+      fill: #eee;
+      stroke: #999;
+    }
+
+    #mermaid-svg-9922519 g.classGroup line {
+      stroke: #999;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9922519 .classLabel .box {
+      stroke: none;
+      stroke-width: 0;
+      fill: #eee;
+      opacity: 0.5;
+    }
+
+    #mermaid-svg-9922519 .classLabel .label {
+      fill: #999;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-9922519 .relation {
+      stroke: #666;
+      stroke-width: 1;
+      fill: none;
+    }
+
+    #mermaid-svg-9922519 .dashed-line {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-9922519 .dotted-line {
+      stroke-dasharray: 1 2;
+    }
+
+    #mermaid-svg-9922519 #compositionStart,
+    #mermaid-svg-9922519 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9922519 #compositionEnd,
+    #mermaid-svg-9922519 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9922519 #dependencyStart,
+    #mermaid-svg-9922519 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9922519 #dependencyStart,
+    #mermaid-svg-9922519 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9922519 #extensionStart,
+    #mermaid-svg-9922519 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9922519 #extensionEnd,
+    #mermaid-svg-9922519 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9922519 #aggregationStart,
+    #mermaid-svg-9922519 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9922519 #aggregationEnd,
+    #mermaid-svg-9922519 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9922519 #lollipopStart,
+    #mermaid-svg-9922519 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9922519 #lollipopEnd,
+    #mermaid-svg-9922519 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-9922519 .edgeTerminals {
+      font-size: 11px;
+    }
+
+    #mermaid-svg-9922519 .classTitleText {
+      text-anchor: middle;
+      font-size: 18px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-9922519 :root {
+      --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+    }
+  </style>
+  <g>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker aggregation classDiagram" id="classDiagram-aggregationStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker aggregation classDiagram" id="classDiagram-aggregationEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker extension classDiagram" id="classDiagram-extensionStart">
+        <path d="M 1,7 L18,13 V 1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker extension classDiagram" id="classDiagram-extensionEnd">
+        <path d="M 1,1 V 13 L18,7 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker composition classDiagram" id="classDiagram-compositionStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker composition classDiagram" id="classDiagram-compositionEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker dependency classDiagram" id="classDiagram-dependencyStart">
+        <path d="M 5,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker dependency classDiagram" id="classDiagram-dependencyEnd">
+        <path d="M 18,7 L9,13 L14,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker lollipop classDiagram" id="classDiagram-lollipopStart">
+        <circle r="6" cy="7" cx="6" fill="white" stroke="black"></circle>
+      </marker>
+    </defs>
+    <g class="root">
+      <g class="clusters"></g>
+      <g class="edgePaths">
+        <path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-solid relation" id="id1" d="M260.315,79.554L264.482,77.457C268.649,75.36,276.982,71.165,285.315,69.068C293.649,66.97,301.982,66.97,306.149,66.97L310.315,66.97"></path>
+        <path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-solid relation" id="id2" d="M260.315,206.562L264.482,208.659C268.649,210.757,276.982,214.952,285.315,217.049C293.649,219.146,301.982,219.146,306.149,219.146L310.315,219.146"></path>
+      </g>
+      <g class="edgeLabels">
+        <g class="edgeLabel">
+          <g transform="translate(0, 0)" class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel"></span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g class="edgeLabel">
+          <g transform="translate(0, 0)" class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel"></span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+      <g class="nodes">
+        <g transform="translate(134.1576690673828, 143.05824279785156)" id="classid-DataParser-61" class="node default">
+          <rect height="270.11647605895996" width="252.31533813476562" y="-135.05823802947998" x="-126.15766906738281" class="outer title-state"></rect>
+          <line y2="-59.88210201263428" y1="-59.88210201263428" x2="126.15766906738281" x1="-126.15766906738281" class="divider"></line>
+          <line y2="-43.88210201263428" y1="-43.88210201263428" x2="126.15766906738281" x1="-126.15766906738281" class="divider"></line>
+          <g class="label">
+            <foreignObject transform="translate( -37.911930084228516, -127.55823802947998)" height="29.58806800842285" width="75.82386016845703">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">«abstract»</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -40.29829406738281, -93.97017002105713)" height="29.58806800842285" width="80.59658813476562" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">DataParser</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -118.65766906738281, -36.38210201263428)" height="29.58806800842285" width="137.27272033691406">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+parseData() : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -118.65766906738281, -2.794034004211426)" height="29.58806800842285" width="126.63351440429688">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-loadData() : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -118.65766906738281, 30.794034004211426)" height="29.58806800842285" width="237.31533813476562">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-validate(parsedData: any) : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -118.65766906738281, 64.38210201263428)" height="29.58806800842285" width="236.32101440429688">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-useData(parsedData: any) : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -118.65766906738281, 97.97017002105713)" height="29.58806800842285" width="182.58522033691406">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">#parse(data: string) : any</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(409.10794830322266, 66.97017288208008)" id="classid-JSONParser-62" class="node default">
+          <rect height="102.1761360168457" width="197.58522033691406" y="-51.08806800842285" x="-98.79261016845703" class="outer title-state"></rect>
+          <line y2="-9.5" y1="-9.5" x2="98.79261016845703" x1="-98.79261016845703" class="divider"></line>
+          <line y2="6.5" y1="6.5" x2="98.79261016845703" x1="-98.79261016845703" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -42.78408432006836, -43.58806800842285)" height="29.58806800842285" width="85.56816864013672" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">JSONParser</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -91.29261016845703, 14)" height="29.58806800842285" width="182.58522033691406">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">#parse(data: string) : any</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(409.10794830322266, 219.14631271362305)" id="classid-XMLParser-63" class="node default">
+          <rect height="102.1761360168457" width="197.58522033691406" y="-51.08806800842285" x="-98.79261016845703" class="outer title-state"></rect>
+          <line y2="-9.5" y1="-9.5" x2="98.79261016845703" x1="-98.79261016845703" class="divider"></line>
+          <line y2="6.5" y1="6.5" x2="98.79261016845703" x1="-98.79261016845703" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -38.65056610107422, -43.58806800842285)" height="29.58806800842285" width="77.30113220214844" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">XMLParser</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -91.29261016845703, 14)" height="29.58806800842285" width="182.58522033691406">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">#parse(data: string) : any</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

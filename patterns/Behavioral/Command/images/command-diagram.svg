@@ -1,0 +1,500 @@
+<svg aria-roledescription="classDiagram" role="graphics-document document" viewBox="-0.0000152587890625 0 910.7159423828125 404.70452880859375" style="max-width: 910.7159423828125px;" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-svg-3150082">
+  <style>
+    #mermaid-svg-3150082 {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-3150082 .error-icon {
+      fill: #552222;
+    }
+
+    #mermaid-svg-3150082 .error-text {
+      fill: #552222;
+      stroke: #552222;
+    }
+
+    #mermaid-svg-3150082 .edge-thickness-normal {
+      stroke-width: 2px;
+    }
+
+    #mermaid-svg-3150082 .edge-thickness-thick {
+      stroke-width: 3.5px;
+    }
+
+    #mermaid-svg-3150082 .edge-pattern-solid {
+      stroke-dasharray: 0;
+    }
+
+    #mermaid-svg-3150082 .edge-pattern-dashed {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-3150082 .edge-pattern-dotted {
+      stroke-dasharray: 2;
+    }
+
+    #mermaid-svg-3150082 .marker {
+      fill: #666;
+      stroke: #666;
+    }
+
+    #mermaid-svg-3150082 .marker.cross {
+      stroke: #666;
+    }
+
+    #mermaid-svg-3150082 svg {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+    }
+
+    #mermaid-svg-3150082 g.classGroup text {
+      fill: #999;
+      fill: #111111;
+      stroke: none;
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-3150082 g.classGroup text .title {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-3150082 .nodeLabel,
+    #mermaid-svg-3150082 .edgeLabel {
+      color: #111111;
+    }
+
+    #mermaid-svg-3150082 .edgeLabel .label rect {
+      fill: #eee;
+    }
+
+    #mermaid-svg-3150082 .label text {
+      fill: #111111;
+    }
+
+    #mermaid-svg-3150082 .edgeLabel .label span {
+      background: #eee;
+    }
+
+    #mermaid-svg-3150082 .classTitle {
+      font-weight: bolder;
+    }
+
+    #mermaid-svg-3150082 .node rect,
+    #mermaid-svg-3150082 .node circle,
+    #mermaid-svg-3150082 .node ellipse,
+    #mermaid-svg-3150082 .node polygon,
+    #mermaid-svg-3150082 .node path {
+      fill: #eee;
+      stroke: #999;
+      stroke-width: 1px;
+    }
+
+    #mermaid-svg-3150082 .divider {
+      stroke: #999;
+      stroke: 1;
+    }
+
+    #mermaid-svg-3150082 g.clickable {
+      cursor: pointer;
+    }
+
+    #mermaid-svg-3150082 g.classGroup rect {
+      fill: #eee;
+      stroke: #999;
+    }
+
+    #mermaid-svg-3150082 g.classGroup line {
+      stroke: #999;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-3150082 .classLabel .box {
+      stroke: none;
+      stroke-width: 0;
+      fill: #eee;
+      opacity: 0.5;
+    }
+
+    #mermaid-svg-3150082 .classLabel .label {
+      fill: #999;
+      font-size: 10px;
+    }
+
+    #mermaid-svg-3150082 .relation {
+      stroke: #666;
+      stroke-width: 1;
+      fill: none;
+    }
+
+    #mermaid-svg-3150082 .dashed-line {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-svg-3150082 .dotted-line {
+      stroke-dasharray: 1 2;
+    }
+
+    #mermaid-svg-3150082 #compositionStart,
+    #mermaid-svg-3150082 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-3150082 #compositionEnd,
+    #mermaid-svg-3150082 .composition {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-3150082 #dependencyStart,
+    #mermaid-svg-3150082 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-3150082 #dependencyStart,
+    #mermaid-svg-3150082 .dependency {
+      fill: #666 !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-3150082 #extensionStart,
+    #mermaid-svg-3150082 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-3150082 #extensionEnd,
+    #mermaid-svg-3150082 .extension {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-3150082 #aggregationStart,
+    #mermaid-svg-3150082 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-3150082 #aggregationEnd,
+    #mermaid-svg-3150082 .aggregation {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-3150082 #lollipopStart,
+    #mermaid-svg-3150082 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-3150082 #lollipopEnd,
+    #mermaid-svg-3150082 .lollipop {
+      fill: #eee !important;
+      stroke: #666 !important;
+      stroke-width: 1;
+    }
+
+    #mermaid-svg-3150082 .edgeTerminals {
+      font-size: 11px;
+    }
+
+    #mermaid-svg-3150082 .classTitleText {
+      text-anchor: middle;
+      font-size: 18px;
+      fill: #000000;
+    }
+
+    #mermaid-svg-3150082 :root {
+      --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+    }
+  </style>
+  <g>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker aggregation classDiagram" id="classDiagram-aggregationStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker aggregation classDiagram" id="classDiagram-aggregationEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker extension classDiagram" id="classDiagram-extensionStart">
+        <path d="M 1,7 L18,13 V 1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker extension classDiagram" id="classDiagram-extensionEnd">
+        <path d="M 1,1 V 13 L18,7 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker composition classDiagram" id="classDiagram-compositionStart">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker composition classDiagram" id="classDiagram-compositionEnd">
+        <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker dependency classDiagram" id="classDiagram-dependencyStart">
+        <path d="M 5,7 L9,13 L1,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" class="marker dependency classDiagram" id="classDiagram-dependencyEnd">
+        <path d="M 18,7 L9,13 L14,7 L9,1 Z"></path>
+      </marker>
+    </defs>
+    <defs>
+      <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" class="marker lollipop classDiagram" id="classDiagram-lollipopStart">
+        <circle r="6" cy="7" cx="6" fill="white" stroke="black"></circle>
+      </marker>
+    </defs>
+    <g class="root">
+      <g class="clusters"></g>
+      <g class="edgePaths">
+        <path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-dashed relation" id="id1" d="M523.724,121.881L527.891,117.014C532.058,112.146,540.391,102.411,548.923,97.544C557.455,92.676,566.187,92.676,570.552,92.676L574.918,92.676"></path>
+        <path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-dashed relation" id="id2" d="M523.724,282.823L527.891,287.691C532.058,292.558,540.391,302.293,548.724,307.161C557.058,312.028,565.391,312.028,569.558,312.028L573.724,312.028"></path>
+        <path marker-start="url(#classDiagram-aggregationStart)" style="fill:none" class="edge-pattern-solid relation" id="id3" d="M718.298,92.676L722.664,92.676C727.029,92.676,735.76,92.676,745.944,99.642C756.128,106.607,767.765,120.539,773.584,127.505L779.402,134.47"></path>
+        <path marker-start="url(#classDiagram-aggregationStart)" style="fill:none" class="edge-pattern-solid relation" id="id4" d="M719.491,312.028L723.658,312.028C727.825,312.028,736.158,312.028,746.143,305.063C756.128,298.097,767.765,284.166,773.584,277.2L779.402,270.234"></path>
+        <path marker-start="url(#classDiagram-aggregationStart)" style="fill:none" class="edge-pattern-solid relation" id="id5" d="M335.955,202.352L340.121,202.352C344.288,202.352,352.621,202.352,360.955,202.352C369.288,202.352,377.621,202.352,381.788,202.352L385.955,202.352"></path>
+      </g>
+      <g class="edgeLabels">
+        <g class="edgeLabel">
+          <g transform="translate(0, 0)" class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel"></span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g class="edgeLabel">
+          <g transform="translate(0, 0)" class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel"></span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g class="edgeLabel">
+          <g transform="translate(0, 0)" class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel"></span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g class="edgeLabel">
+          <g transform="translate(0, 0)" class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel"></span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g class="edgeLabel">
+          <g transform="translate(0, 0)" class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="edgeLabel"></span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+      <g class="nodes">
+        <g transform="translate(454.83946990966797, 202.35227966308594)" id="classid-ICommand-109" class="node default">
+          <rect height="169.3522720336914" width="137.76988220214844" y="-84.6761360168457" x="-68.88494110107422" class="outer title-state"></rect>
+          <line y2="-9.5" y1="-9.5" x2="68.88494110107422" x1="-68.88494110107422" class="divider"></line>
+          <line y2="6.5" y1="6.5" x2="68.88494110107422" x1="-68.88494110107422" class="divider"></line>
+          <g class="label">
+            <foreignObject transform="translate( -41.171875, -77.1761360168457)" height="29.58806800842285" width="82.34375">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">«interface»</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -39.03408432006836, -43.58806800842285)" height="29.58806800842285" width="78.06816864013672" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">ICommand</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -61.38494110107422, 14)" height="29.58806800842285" width="122.76988220214844">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+execute() : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -61.38494110107422, 47.58806800842285)" height="29.58806800842285" width="100.5397720336914">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+undo() : void</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(646.6079330444336, 92.67613983154297)" id="classid-TurnOnCommand-110" class="node default">
+          <rect height="169.3522720336914" width="143.38067626953125" y="-84.6761360168457" x="-71.69033813476562" class="outer title-state"></rect>
+          <line y2="-43.08806800842285" y1="-43.08806800842285" x2="71.69033813476562" x1="-71.69033813476562" class="divider"></line>
+          <line y2="6.5" y1="6.5" x2="71.69033813476562" x1="-71.69033813476562" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -64.19033813476562, -77.1761360168457)" height="29.58806800842285" width="128.38067626953125" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">TurnOnCommand</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -64.19033813476562, -31.58806800842285)" height="29.58806800842285" width="84.7585220336914">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-light: Light</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -64.19033813476562, 14)" height="29.58806800842285" width="122.76988220214844">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+execute() : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -64.19033813476562, 47.58806800842285)" height="29.58806800842285" width="100.5397720336914">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+undo() : void</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(646.6079330444336, 312.0284194946289)" id="classid-TurnOffCommand-111" class="node default">
+          <rect height="169.3522720336914" width="145.7670440673828" y="-84.6761360168457" x="-72.8835220336914" class="outer title-state"></rect>
+          <line y2="-43.08806800842285" y1="-43.08806800842285" x2="72.8835220336914" x1="-72.8835220336914" class="divider"></line>
+          <line y2="6.5" y1="6.5" x2="72.8835220336914" x1="-72.8835220336914" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -65.3835220336914, -77.1761360168457)" height="29.58806800842285" width="130.7670440673828" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">TurnOffCommand</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -65.3835220336914, -31.58806800842285)" height="29.58806800842285" width="84.7585220336914">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-light: Light</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -65.3835220336914, 14)" height="29.58806800842285" width="122.76988220214844">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+execute() : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -65.3835220336914, 47.58806800842285)" height="29.58806800842285" width="100.5397720336914">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+undo() : void</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(836.1036682128906, 202.35227966308594)" id="classid-Light-112" class="node default">
+          <rect height="135.76420402526855" width="133.22442626953125" y="-67.88210201263428" x="-66.61221313476562" class="outer title-state"></rect>
+          <line y2="-26.294034004211426" y1="-26.294034004211426" x2="66.61221313476562" x1="-66.61221313476562" class="divider"></line>
+          <line y2="-10.294034004211426" y1="-10.294034004211426" x2="66.61221313476562" x1="-66.61221313476562" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -18.742897033691406, -60.38210201263428)" height="29.58806800842285" width="37.48579406738281" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">Light</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -59.112213134765625, -2.794034004211426)" height="29.58806800842285" width="115.12783813476562">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+turnOn() : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -59.112213134765625, 30.794034004211426)" height="29.58806800842285" width="118.22442626953125">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+turnOff() : void</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+        <g transform="translate(171.97726440429688, 202.35227966308594)" id="classid-SimpleRemoteControl-113" class="node default">
+          <rect height="303.7045440673828" width="327.95452880859375" y="-151.8522720336914" x="-163.97726440429688" class="outer title-state"></rect>
+          <line y2="-110.26420402526855" y1="-110.26420402526855" x2="163.97726440429688" x1="-163.97726440429688" class="divider"></line>
+          <line y2="6.5" y1="6.5" x2="163.97726440429688" x1="-163.97726440429688" class="divider"></line>
+          <g class="label">
+            <foreignObject height="0" width="0">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel"></span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -81.25, -144.3522720336914)" height="29.58806800842285" width="162.5" class="classTitle">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">SimpleRemoteControl</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -156.47726440429688, -98.76420402526855)" height="29.58806800842285" width="215.5113525390625">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-currentCommand: ICommand</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -156.47726440429688, -65.1761360168457)" height="29.58806800842285" width="197.57101440429688">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-undoCommand: ICommand</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -156.47726440429688, -31.58806800842285)" height="29.58806800842285" width="218.43748474121094">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">-commandQueue: ICommand[]</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -156.47726440429688, 14)" height="29.58806800842285" width="312.95452880859375">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+setCommand(command: ICommand) : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -156.47726440429688, 47.58806800842285)" height="29.58806800842285" width="194.5738525390625">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+buttonWasPressed() : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -156.47726440429688, 81.1761360168457)" height="29.58806800842285" width="229.68748474121094">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+undoButtonWasPressed() : void</span>
+              </div>
+            </foreignObject>
+            <foreignObject transform="translate( -156.47726440429688, 114.76420402526855)" height="29.58806800842285" width="193.22442626953125">
+              <div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml">
+                <span class="nodeLabel">+hasCommands() : boolean</span>
+              </div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
